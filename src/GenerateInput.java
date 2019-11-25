@@ -8,7 +8,7 @@ import java.io.IOException;
  * sorting methods. The program outputs each sorted array to a text file.
  */
 public class GenerateInput {
-
+    //TODO: May need to import .idea files to github
 	private Bubble b;
 	private Insertion is;
 	private Selection s;
