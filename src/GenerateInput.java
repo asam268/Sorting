@@ -22,13 +22,16 @@ public class GenerateInput {
 
 	/**
 	 * Loop for random array input sizes 100 - 500000000
+	 * 0 = random, 1 = sorted, 2 = backwards
 	 * @throws IOException Throws for FileNotFoundException
 	 */
 	public void generate() throws IOException{
-		for(int i = 100; i <= 100000000; i=i*10){
-			populate(i);
-			if(i*5 < 500000000)
-				populate(i*5);
+		for(int j = 0; j < 3; j++) {
+			for (int i = 100; i <= 100000000; i = i * 10) {
+				populate(i, j);
+				if (i * 5 < 500000000)
+					populate(i * 5, j);
+			}
 		}
 	}
 
@@ -37,18 +40,28 @@ public class GenerateInput {
 	 * @param i	input size
 	 * @throws IOException Throws for FileNotFoundException
 	 */
-	public void populate(int i) throws IOException {
+	public void populate(int i, int inputType) throws IOException {
 		b = new Bubble();
 		is = new Insertion();
 		s = new Selection();
 		q = new Quick();
 		m = new Merge();
 		int[] arr, arr_b, arr_is, arr_s, arr_q, arr_m;
+		String type = "";
 
 		arr = new int[i];
 		System.out.println("Running input size: " + i);
-		for(int j = 0; j < i; j++){
-			arr[j] = (int) (Math.random() * i) + 1;
+
+		if (inputType == 0) {
+			arr = getRandomArray(i);
+			type = "_random_input";
+		} else if (inputType == 1){
+			arr = getSortedArray(i);
+			type = "_sorted_input";
+		}
+		else if(inputType == 2) {
+			arr = getBackwardsArray(i);
+			type = "_backwards_input";
 		}
 
 		//TODO: Insert System.nanotime() in between sorting algorithms, faster algorithms first.
@@ -70,7 +83,7 @@ public class GenerateInput {
 		long elapsedTime = end - start;
 		double elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
 		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
-		writeCustomFile("merge", arr_m, i, elapsedTimeInSeconds);
+		writeCustomFile("merge", type, arr_m, i, elapsedTimeInSeconds);
 	}
 
 	//TODO: based on length of time in nano/milliseconds, convert the time to a more readable format
@@ -84,7 +97,7 @@ public class GenerateInput {
 
     public int[] getRandomArray(int n){
 		int[] toReturn = new int[n];
-		for(int i = 0; i < n; i++){
+		for(int i = 1; i < n; i++){
 			toReturn[i] = (int) (Math.random() * i) + 1;
 		}
 		return toReturn;
@@ -121,8 +134,8 @@ public class GenerateInput {
 	 * @param n		Input size
 	 * @throws IOException Throws for FileNotFoundException
 	 */
-	public void writeCustomFile(String algo, int[] arr, int n, double runtime) throws IOException {
-		String filename = algo + n + ".txt";
+	public void writeCustomFile(String algo, String type, int[] arr, int n, double runtime) throws IOException {
+		String filename = algo + type + n + ".txt";
 		//File file = new File(filename);
 		FileWriter fr = new FileWriter(filename);
 		fr.write("Runtime: " + runtime + "seconds");
