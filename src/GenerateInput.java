@@ -8,13 +8,13 @@ import java.io.IOException;
  * sorting methods. The program outputs each sorted array to a text file.
  */
 public class GenerateInput {
-	//TODO: Include input.txt
 	private Bubble b;
 	private Insertion is;
 	private Selection s;
 	private Quick q;
 	private Merge m;
 
+	//TODO: Different types of input: random, sorted, backwards sorted, few unique
 	public GenerateInput() throws IOException{
 		generate();
 	}
