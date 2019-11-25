@@ -22,19 +22,20 @@ public class GenerateInput {
 
 	/**
 	 * Loop for random array input sizes 100 - 500000000
-	 * @throws IOException
+	 * @throws IOException Throws for FileNotFoundException
 	 */
 	public void generate() throws IOException{
 		for(int i = 100; i <= 100000000; i=i*10){
 			populate(i);
-			populate(i*5);
+			if(i*5 < 500000000)
+				populate(i*5);
 		}
 	}
 
 	/**
 	 * Populates random arrays and sorts them
 	 * @param i	input size
-	 * @throws IOException
+	 * @throws IOException Throws for FileNotFoundException
 	 */
 	public void populate(int i) throws IOException {
 		b = new Bubble();
@@ -45,7 +46,7 @@ public class GenerateInput {
 		int[] arr, arr_b, arr_is, arr_s, arr_q, arr_m;
 
 		arr = new int[i];
-		System.out.println("Why isn't this printing: " + i + "=====================================");
+		System.out.println("Running input size: " + i);
 		for(int j = 0; j < i; j++){
 			arr[j] = (int) (Math.random() * i) + 1;
 		}
@@ -81,6 +82,22 @@ public class GenerateInput {
          */
     }
 
+    public int[] getRandomArray(int i){
+		return null;
+	}
+
+	public int[] getSortedArray(int i){
+		return null;
+	}
+
+	public int[] getBackwardsArray(int i){
+		return null;
+	}
+
+	public int[] getFewUniqueArray(int i){
+		return null;
+	}
+
 	/**
 	 * Writes an output file unique to every algorithm and input size
 	 * TODO: Write the time in seconds at the top of each file
@@ -88,13 +105,13 @@ public class GenerateInput {
 	 * @param algo	Name of the algorithm used to sort the array
 	 * @param arr	Sorted array
 	 * @param n		Input size
-	 * @throws IOException
+	 * @throws IOException Throws for FileNotFoundException
 	 */
 	public void writeCustomFile(String algo, int[] arr, int n, double runtime) throws IOException {
 		String filename = algo + n + ".txt";
 		//File file = new File(filename);
 		FileWriter fr = new FileWriter(filename);
-		fr.write("Runtime: " + runtime);
+		fr.write("Runtime: " + runtime + "seconds");
 		fr.write(System.lineSeparator());
 		for(int i = 0; i < n; i++){
 			fr.write("" + arr[i]);
@@ -106,7 +123,7 @@ public class GenerateInput {
 	/**
 	 * Drives code
 	 * @param args	none
-	 * @throws IOException
+	 * @throws IOException Throws for FileNotFoundException
 	 */
 	public static void main(String[] args) throws IOException{
 		new GenerateInput();
