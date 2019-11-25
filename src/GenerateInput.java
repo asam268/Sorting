@@ -82,16 +82,30 @@ public class GenerateInput {
          */
     }
 
-    public int[] getRandomArray(int i){
-		return null;
+    public int[] getRandomArray(int n){
+		int[] toReturn = new int[n];
+		for(int i = 0; i < n; i++){
+			toReturn[i] = (int) (Math.random() * i) + 1;
+		}
+		return toReturn;
 	}
 
-	public int[] getSortedArray(int i){
-		return null;
+	public int[] getSortedArray(int n){
+		int[] toReturn = new int[n];
+		for(int i = 0; i < n; i++){
+			toReturn[i] = i;
+		}
+		return toReturn;
 	}
 
-	public int[] getBackwardsArray(int i){
-		return null;
+	public int[] getBackwardsArray(int n){
+		int[] toReturn = new int[n];
+		int j = n - 1;
+		for(int i = 0; i < n; i++){
+			toReturn[i] = j;
+			j--;
+		}
+		return toReturn;
 	}
 
 	public int[] getFewUniqueArray(int i){
@@ -118,7 +132,6 @@ public class GenerateInput {
 			fr.write(System.lineSeparator());
 		}
 		fr.close();
-		//something
 	}
 
 	/**
