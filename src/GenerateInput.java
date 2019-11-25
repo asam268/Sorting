@@ -8,7 +8,7 @@ import java.io.IOException;
  * sorting methods. The program outputs each sorted array to a text file.
  */
 public class GenerateInput {
-    //TODO: May need to import .idea files to github
+	//TODO: Include input.txt
 	private Bubble b;
 	private Insertion is;
 	private Selection s;
@@ -52,17 +52,23 @@ public class GenerateInput {
 
 		//TODO: Insert System.nanotime() in between sorting algorithms, faster algorithms first.
         //System.currentTimeMillis could be useful for converting
-		arr_b = b.bubbleSort(arr);
-		writeCustomFile("bubble", arr_b, i);
-		arr_is = is.insertionSort(arr);
-		writeCustomFile("insertion", arr_is, i);
-		arr_s = s.selectionSort(arr);
-		writeCustomFile("selection", arr_s, i);
-		arr_q = arr;
-		q.Qsort(arr_q, 0, i-1);
-		writeCustomFile("quick", arr_q, i);
+//		arr_b = b.bubbleSort(arr);
+//		writeCustomFile("bubble", arr_b, i);
+//		arr_is = is.insertionSort(arr);
+//		writeCustomFile("insertion", arr_is, i);
+//		arr_s = s.selectionSort(arr);
+//		writeCustomFile("selection", arr_s, i);
+//		arr_q = arr;
+//		q.Qsort(arr_q, 0, i-1);
+//		writeCustomFile("quick", arr_q, i);
+
 		arr_m = arr;
+		long start = System.nanoTime();
 		m.mergesort(arr_m, i);
+		long end = System.nanoTime();
+		long elapsedTime = end - start;
+		double elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
+		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
 		writeCustomFile("merge", arr_m, i);
 	}
 
@@ -77,6 +83,8 @@ public class GenerateInput {
 
 	/**
 	 * Writes an output file unique to every algorithm and input size
+	 * TODO: Write the time in seconds at the top of each file
+	 * TODO: Will have to differentiate different types of test
 	 * @param algo	Name of the algorithm used to sort the array
 	 * @param arr	Sorted array
 	 * @param n		Input size
