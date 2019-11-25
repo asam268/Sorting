@@ -69,7 +69,7 @@ public class GenerateInput {
 		long elapsedTime = end - start;
 		double elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
 		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
-		writeCustomFile("merge", arr_m, i);
+		writeCustomFile("merge", arr_m, i, elapsedTimeInSeconds);
 	}
 
 	//TODO: based on length of time in nano/milliseconds, convert the time to a more readable format
@@ -90,11 +90,12 @@ public class GenerateInput {
 	 * @param n		Input size
 	 * @throws IOException
 	 */
-	public void writeCustomFile(String algo, int[] arr, int n) throws IOException {
+	public void writeCustomFile(String algo, int[] arr, int n, double runtime) throws IOException {
 		String filename = algo + n + ".txt";
 		//File file = new File(filename);
 		FileWriter fr = new FileWriter(filename);
-		
+		fr.write("Runtime: " + runtime);
+		fr.write(System.lineSeparator());
 		for(int i = 0; i < n; i++){
 			fr.write("" + arr[i]);
 			fr.write(System.lineSeparator());

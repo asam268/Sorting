@@ -1,3 +1,4 @@
 .idea/
 Sorting.iml
 *.txt
+/out/production/Sorting/META-INF/Sorting.kotlin_module
