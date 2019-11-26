@@ -3,7 +3,9 @@
  * Merge Sort
  */
 public class Merge {
-	
+
+
+	//TODO: Change mergesort to iterative version
 	void mergesort(int arr[], int n)
 	{
 		int size; 

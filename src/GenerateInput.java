@@ -13,9 +13,11 @@ public class GenerateInput {
 	private Selection s;
 	private Quick q;
 	private Merge m;
+	private Analysis analysis;
 
 	//TODO: Different types of input: random, sorted, backwards sorted, few unique
 	public GenerateInput() throws IOException{
+		analysis = new Analysis();
 		generate();
 	}
 
@@ -31,6 +33,7 @@ public class GenerateInput {
 				populate(i, j);
 				if (i * 5 < 500000000)
 					populate(i * 5, j);
+				System.runFinalization();
 			}
 		}
 	}
@@ -54,14 +57,14 @@ public class GenerateInput {
 
 		if (inputType == 0) {
 			arr = getRandomArray(i);
-			type = "_random_input";
+			type = "Random";
 		} else if (inputType == 1){
 			arr = getSortedArray(i);
-			type = "_sorted_input";
+			type = "Sorted";
 		}
 		else if(inputType == 2) {
 			arr = getBackwardsArray(i);
-			type = "_backwards_input";
+			type = "Backwards";
 		}
 
 		//TODO: Insert System.nanotime() in between sorting algorithms, faster algorithms first.
@@ -77,13 +80,15 @@ public class GenerateInput {
 //		writeCustomFile("quick", arr_q, i);
 
 		arr_m = arr;
+		System.out.println("Last element: " + arr_m[i-1]);
 		long start = System.nanoTime();
 		m.mergesort(arr_m, i);
 		long end = System.nanoTime();
 		long elapsedTime = end - start;
 		double elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
 		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
-		writeCustomFile("merge", type, arr_m, i, elapsedTimeInSeconds);
+//		writeCustomFile("merge", type, arr_m, i, elapsedTimeInSeconds);
+		analysis.writeAnalysis("Merge", type, i, elapsedTimeInSeconds);
 	}
 
 	//TODO: based on length of time in nano/milliseconds, convert the time to a more readable format
