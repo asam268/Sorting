@@ -40,6 +40,7 @@ public class GenerateInput {
 
 	/**
 	 * Populates random arrays and sorts them
+	 * TODO: Separate these into different methods for each sorting algorithm
 	 * @param i	input size
 	 * @throws IOException Throws for FileNotFoundException
 	 */
@@ -51,6 +52,8 @@ public class GenerateInput {
 		m = new Merge();
 		int[] arr, arr_b, arr_is, arr_s, arr_q, arr_m;
 		String type = "";
+		long start, end, elapsedTime;
+		double elapsedTimeInSeconds;
 
 		arr = new int[i];
 		System.out.println("Running input size: " + i);
@@ -67,8 +70,6 @@ public class GenerateInput {
 			type = "Backwards";
 		}
 
-		//TODO: Insert System.nanotime() in between sorting algorithms, faster algorithms first.
-        //System.currentTimeMillis could be useful for converting
 //		arr_b = b.bubbleSort(arr);
 //		writeCustomFile("bubble", arr_b, i);
 //		arr_is = is.insertionSort(arr);
@@ -78,17 +79,48 @@ public class GenerateInput {
 //		arr_q = arr;
 //		q.Qsort(arr_q, 0, i-1);
 //		writeCustomFile("quick", arr_q, i);
+		arr_q = arr;
+		start = System.nanoTime();
+		q.Qsort(arr_q, 0, i-1);
+		end = System.nanoTime();
+		elapsedTime = end - start;
+		elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
+		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
+		analysis.writeAnalysis("Quick", type, i, elapsedTimeInSeconds);
 
 		arr_m = arr;
-		System.out.println("Last element: " + arr_m[i-1]);
-		long start = System.nanoTime();
+		start = System.nanoTime();
 		m.mergesort(arr_m, i);
-		long end = System.nanoTime();
-		long elapsedTime = end - start;
-		double elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
+		end = System.nanoTime();
+		elapsedTime = end - start;
+		elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
 		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
 //		writeCustomFile("merge", type, arr_m, i, elapsedTimeInSeconds);
 		analysis.writeAnalysis("Merge", type, i, elapsedTimeInSeconds);
+	}
+
+	public void populateQuick(int i, int inputType){
+//		q = new Quick();
+//		int[] arr;
+//		String type = "";
+//		long start, end, elapsedTime;
+//		double elapsedTimeInSeconds;
+//
+//		arr = new int[i];
+//		System.out.println("Running input size: " + i);
+//
+//		if (inputType == 0) {
+//			arr = getRandomArray(i);
+//			type = "Random";
+//		} else if (inputType == 1){
+//			arr = getSortedArray(i);
+//			type = "Sorted";
+//		}
+//		else if(inputType == 2) {
+//			arr = getBackwardsArray(i);
+//			type = "Backwards";
+//		}
+
 	}
 
 	//TODO: based on length of time in nano/milliseconds, convert the time to a more readable format
@@ -111,14 +143,14 @@ public class GenerateInput {
 	public int[] getSortedArray(int n){
 		int[] toReturn = new int[n];
 		for(int i = 0; i < n; i++){
-			toReturn[i] = i;
+			toReturn[i] = i + 1;
 		}
 		return toReturn;
 	}
 
 	public int[] getBackwardsArray(int n){
 		int[] toReturn = new int[n];
-		int j = n - 1;
+		int j = n;
 		for(int i = 0; i < n; i++){
 			toReturn[i] = j;
 			j--;
