@@ -30,9 +30,17 @@ public class GenerateInput {
 	public void generate() throws IOException{
 		for(int j = 0; j < 3; j++) {
 			for (int i = 100; i <= 100000000; i = i * 10) {
-				populate(i, j);
+				populate("Merge", i, j);
 				if (i * 5 < 500000000)
-					populate(i * 5, j);
+					populate("Merge",i * 5, j);
+				System.runFinalization();
+			}
+		}
+		for(int j = 0; j < 3; j++) {
+			for (int i = 100; i <= 100000000; i = i * 10) {
+				populate("Quick", i, j);
+				if (i * 5 < 500000000)
+					populate("Quick",i * 5, j);
 				System.runFinalization();
 			}
 		}
@@ -44,13 +52,13 @@ public class GenerateInput {
 	 * @param i	input size
 	 * @throws IOException Throws for FileNotFoundException
 	 */
-	public void populate(int i, int inputType) throws IOException {
+	public void populate(String algo, int i, int inputType) throws IOException {
 		b = new Bubble();
 		is = new Insertion();
 		s = new Selection();
 		q = new Quick();
 		m = new Merge();
-		int[] arr, arr_b, arr_is, arr_s, arr_q, arr_m;
+		int[] arr, arr_a;//arr_b, arr_is, arr_s, arr_q, arr_m;
 		String type = "";
 		long start, end, elapsedTime;
 		double elapsedTimeInSeconds;
@@ -79,24 +87,34 @@ public class GenerateInput {
 //		arr_q = arr;
 //		q.Qsort(arr_q, 0, i-1);
 //		writeCustomFile("quick", arr_q, i);
-		arr_q = arr;
-		start = System.nanoTime();
-		q.Qsort(arr_q, 0, i-1);
-		end = System.nanoTime();
-		elapsedTime = end - start;
-		elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
-		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
-		analysis.writeAnalysis("Quick", type, i, elapsedTimeInSeconds);
+//		arr_q = arr;
+//		start = System.nanoTime();
+//		q.Qsort(arr_q, 0, i-1);
+//		end = System.nanoTime();
+//		elapsedTime = end - start;
+//		elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
+//		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
+//		analysis.writeAnalysis("Quick", type, i, elapsedTimeInSeconds);
 
-		arr_m = arr;
-		start = System.nanoTime();
-		m.mergesort(arr_m, i);
-		end = System.nanoTime();
-		elapsedTime = end - start;
-		elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
-		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
-//		writeCustomFile("merge", type, arr_m, i, elapsedTimeInSeconds);
-		analysis.writeAnalysis("Merge", type, i, elapsedTimeInSeconds);
+		arr_a = arr;
+		if(algo.equalsIgnoreCase("Merge")) {
+			start = System.nanoTime();
+			m.mergesort(arr_a, i);
+			end = System.nanoTime();
+			elapsedTime = end - start;
+			elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
+			System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
+			analysis.writeAnalysis(algo, type, i, elapsedTimeInSeconds);
+		}
+		else if(algo.equalsIgnoreCase("Quick")){
+			start = System.nanoTime();
+			q.Qsort(arr_a, 0, i-1);
+			end = System.nanoTime();
+			elapsedTime = end - start;
+			elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
+			System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
+			analysis.writeAnalysis(algo, type, i, elapsedTimeInSeconds);
+		}
 	}
 
 	public void populateQuick(int i, int inputType){
