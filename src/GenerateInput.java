@@ -25,22 +25,48 @@ public class GenerateInput {
 	/**
 	 * Loop for random array input sizes 100 - 500000000
 	 * 0 = random, 1 = sorted, 2 = backwards
+	 * TODO: O(n^2) algorithms should run 1m-5m, including Quick sort against already sorted input
+	 * TODO: Need to have multiple samples of each run (probably at least 3 to get an average)
 	 * @throws IOException Throws for FileNotFoundException
 	 */
 	public void generate() throws IOException{
+//		for(int j = 0; j < 3; j++) {
+//			for (int i = 100; i <= 100000000; i = i * 10) {
+//				populate("Merge", i, j);
+//				if (i * 5 < 500000000)
+//					populate("Merge",i * 5, j);
+//				System.runFinalization();
+//			}
+//		}
+//		for(int j = 0; j < 3; j++) { //TODO: if-statements for running sorted input to only 1m
+//			for (int i = 100; i <= 100000000; i = i * 10) {
+//				populate("Quick", i, j);
+//				if (i * 5 < 500000000)
+//					populate("Quick",i * 5, j);
+//				System.runFinalization();
+//			}
+//		}
 		for(int j = 0; j < 3; j++) {
-			for (int i = 100; i <= 100000000; i = i * 10) {
-				populate("Merge", i, j);
-				if (i * 5 < 500000000)
-					populate("Merge",i * 5, j);
+			for (int i = 100; i <= 1000000; i = i * 10) {
+				populate("Bubble", i, j);
+				if (i * 5 < 5000000)
+					populate("Bubble",i * 5, j);
 				System.runFinalization();
 			}
 		}
+//		for(int j = 0; j < 3; j++) {
+//			for (int i = 100; i <= 1000000; i = i * 10) {
+//				populate("Insertion", i, j);
+//				if (i * 5 < 5000000)
+//					populate("Insertion",i * 5, j);
+//				System.runFinalization();
+//			}
+//		}
 		for(int j = 0; j < 3; j++) {
-			for (int i = 100; i <= 100000000; i = i * 10) {
-				populate("Quick", i, j);
-				if (i * 5 < 500000000)
-					populate("Quick",i * 5, j);
+			for (int i = 100; i <= 1000000; i = i * 10) {
+				populate("Selection", i, j);
+				if (i * 5 < 5000000)
+					populate("Selection",i * 5, j);
 				System.runFinalization();
 			}
 		}
@@ -96,7 +122,7 @@ public class GenerateInput {
 //		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
 //		analysis.writeAnalysis("Quick", type, i, elapsedTimeInSeconds);
 
-		arr_a = arr;
+		arr_a = arr; //TODO: Many of these methods return an array, may need to edit sort calls
 		if(algo.equalsIgnoreCase("Merge")) {
 			start = System.nanoTime();
 			m.mergesort(arr_a, i);
@@ -115,30 +141,35 @@ public class GenerateInput {
 			System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
 			analysis.writeAnalysis(algo, type, i, elapsedTimeInSeconds);
 		}
-	}
-
-	public void populateQuick(int i, int inputType){
-//		q = new Quick();
-//		int[] arr;
-//		String type = "";
-//		long start, end, elapsedTime;
-//		double elapsedTimeInSeconds;
-//
-//		arr = new int[i];
-//		System.out.println("Running input size: " + i);
-//
-//		if (inputType == 0) {
-//			arr = getRandomArray(i);
-//			type = "Random";
-//		} else if (inputType == 1){
-//			arr = getSortedArray(i);
-//			type = "Sorted";
-//		}
-//		else if(inputType == 2) {
-//			arr = getBackwardsArray(i);
-//			type = "Backwards";
-//		}
-
+		else if(algo.equalsIgnoreCase("Bubble")){
+			start = System.nanoTime();
+			b.bubbleSort(arr_a);
+			end = System.nanoTime();
+			elapsedTime = end - start;
+			elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
+			System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
+			analysis.writeAnalysis(algo, type, i, elapsedTimeInSeconds);
+		}
+		else if(algo.equalsIgnoreCase("Insertion")){
+			start = System.nanoTime();
+			is.insertionSort(arr_a);
+			end = System.nanoTime();
+			elapsedTime = end - start;
+			elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
+			System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
+			analysis.writeAnalysis(algo, type, i, elapsedTimeInSeconds);
+		}
+		else if(algo.equalsIgnoreCase("Selection")){
+			start = System.nanoTime();
+			s.selectionSort(arr_a);
+			end = System.nanoTime();
+			elapsedTime = end - start;
+			elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
+			System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
+			analysis.writeAnalysis(algo, type, i, elapsedTimeInSeconds);
+		}
+		else
+			System.out.println("Error: Incorrectly specified algorithm");
 	}
 
 	//TODO: based on length of time in nano/milliseconds, convert the time to a more readable format
