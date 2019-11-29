@@ -4,8 +4,7 @@
  */
 public class Bubble {
 
-	public int[] bubbleSort(int[] arr){
-		int[] a = arr;
+	public void bubbleSort(int[] a){
 	    int n = a.length;
 		for(int i = 0; i < n-1; i++){
 			for(int j = 0; j < n-i-1; j++){
@@ -16,7 +15,6 @@ public class Bubble {
 				}
 			}
 		}
-		return a;
 	}
 
 }

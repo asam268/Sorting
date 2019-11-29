@@ -4,8 +4,7 @@
  */
 public class Insertion {
 
-	public int[] insertionSort(int[] arr){
-		int[] a = arr;
+	public void insertionSort(int[] a){
 	    int n = a.length;
 		
 		for(int i = 1; i < n; ++i){
@@ -18,7 +17,5 @@ public class Insertion {
 			}
 			a[j+1] = key;
 		}
-
-		return a;
 	}
 }

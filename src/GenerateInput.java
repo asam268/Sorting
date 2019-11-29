@@ -4,8 +4,9 @@ import java.io.IOException;
 /**
  * @author Asa Marshall
  * @author Zhyere Ducksworth
- * This program generates randomly assorted integer arrays with different input sizes and sorts them using 5 different
- * sorting methods. The program outputs each sorted array to a text file.
+ * This program tests the speed of multiple sorting algorithms with input sizes of up to 500,000,000 and with different
+ * input types including randomly sorted input, sorted input, and backwards sorted input. The program outputs to a text
+ * file showing the elapsed time in seconds for the certain algorithm, input size, and input type.
  */
 public class GenerateInput {
 	private Bubble b;
@@ -15,7 +16,6 @@ public class GenerateInput {
 	private Merge m;
 	private Analysis analysis;
 
-	//TODO: Different types of input: random, sorted, backwards sorted, few unique
 	public GenerateInput() throws IOException{
 		analysis = new Analysis();
 		generate();
@@ -38,22 +38,25 @@ public class GenerateInput {
 //				System.runFinalization();
 //			}
 //		}
-//		for(int j = 0; j < 3; j++) { //TODO: if-statements for running sorted input to only 1m
-//			for (int i = 100; i <= 100000000; i = i * 10) {
-//				populate("Quick", i, j);
-//				if (i * 5 < 500000000)
-//					populate("Quick",i * 5, j);
-//				System.runFinalization();
-//			}
-//		}
 		for(int j = 0; j < 3; j++) {
-			for (int i = 100; i <= 1000000; i = i * 10) {
-				populate("Bubble", i, j);
-				if (i * 5 < 5000000)
-					populate("Bubble",i * 5, j);
+			for (int i = 100; i <= 100000000; i = i * 10) {
+				populate("Quick", i, j);
+				if(j > 0 && i == 1000000)
+					break;
+				if (i * 5 < 500000000)
+					populate("Quick",i * 5, j);
 				System.runFinalization();
 			}
 		}
+		//TODO: Bubble and insertion should run real fast for sorted arrays. Higher input size for them?
+//		for(int j = 0; j < 3; j++) {
+//			for (int i = 100; i <= 1000000; i = i * 10) {
+//				populate("Bubble", i, j);
+//				if (i * 5 < 5000000)
+//					populate("Bubble",i * 5, j);
+//				System.runFinalization();
+//			}
+//		}
 //		for(int j = 0; j < 3; j++) {
 //			for (int i = 100; i <= 1000000; i = i * 10) {
 //				populate("Insertion", i, j);
@@ -62,19 +65,18 @@ public class GenerateInput {
 //				System.runFinalization();
 //			}
 //		}
-		for(int j = 0; j < 3; j++) {
-			for (int i = 100; i <= 1000000; i = i * 10) {
-				populate("Selection", i, j);
-				if (i * 5 < 5000000)
-					populate("Selection",i * 5, j);
-				System.runFinalization();
-			}
-		}
+//		for(int j = 0; j < 3; j++) {
+//			for (int i = 100; i <= 1000000; i = i * 10) {
+//				populate("Selection", i, j);
+//				if (i * 5 < 5000000)
+//					populate("Selection",i * 5, j);
+//				System.runFinalization();
+//			}
+//		}
 	}
 
 	/**
 	 * Populates random arrays and sorts them
-	 * TODO: Separate these into different methods for each sorting algorithm
 	 * @param i	input size
 	 * @throws IOException Throws for FileNotFoundException
 	 */
@@ -90,7 +92,6 @@ public class GenerateInput {
 		double elapsedTimeInSeconds;
 
 		arr = new int[i];
-		System.out.println("Running input size: " + i);
 
 		if (inputType == 0) {
 			arr = getRandomArray(i);
@@ -103,26 +104,10 @@ public class GenerateInput {
 			arr = getBackwardsArray(i);
 			type = "Backwards";
 		}
+		System.out.println("Running input size: " + i + " of type " + type + " for " + algo);
 
-//		arr_b = b.bubbleSort(arr);
-//		writeCustomFile("bubble", arr_b, i);
-//		arr_is = is.insertionSort(arr);
-//		writeCustomFile("insertion", arr_is, i);
-//		arr_s = s.selectionSort(arr);
-//		writeCustomFile("selection", arr_s, i);
-//		arr_q = arr;
-//		q.Qsort(arr_q, 0, i-1);
-//		writeCustomFile("quick", arr_q, i);
-//		arr_q = arr;
-//		start = System.nanoTime();
-//		q.Qsort(arr_q, 0, i-1);
-//		end = System.nanoTime();
-//		elapsedTime = end - start;
-//		elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
-//		System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
-//		analysis.writeAnalysis("Quick", type, i, elapsedTimeInSeconds);
 
-		arr_a = arr; //TODO: Many of these methods return an array, may need to edit sort calls
+		arr_a = arr; //TODO: Many of these methods return an array, may need to edit sort calls (exclude quick+merge)
 		if(algo.equalsIgnoreCase("Merge")) {
 			start = System.nanoTime();
 			m.mergesort(arr_a, i);
@@ -170,6 +155,7 @@ public class GenerateInput {
 		}
 		else
 			System.out.println("Error: Incorrectly specified algorithm");
+		System.out.println();
 	}
 
 	//TODO: based on length of time in nano/milliseconds, convert the time to a more readable format
@@ -213,8 +199,6 @@ public class GenerateInput {
 
 	/**
 	 * Writes an output file unique to every algorithm and input size
-	 * TODO: Write the time in seconds at the top of each file
-	 * TODO: Will have to differentiate different types of test
 	 * @param algo	Name of the algorithm used to sort the array
 	 * @param arr	Sorted array
 	 * @param n		Input size

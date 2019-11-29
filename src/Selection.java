@@ -4,8 +4,7 @@
  */
 public class Selection {
 
-	public int[] selectionSort(int[] arr){
-		int[] a = arr;
+	public void selectionSort(int[] a){
 		int n = a.length;
 		
 		for(int i = 0; i < n-1; i++){
@@ -19,6 +18,5 @@ public class Selection {
 			a[min] = a[i];
 			a[i] = t;
 		}
-		return a;
 	}
 }
