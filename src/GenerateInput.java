@@ -13,7 +13,9 @@ public class GenerateInput {
 
     public GenerateInput() throws IOException {
         analysis = new Analysis();
-        generate(); //for loop can be added here for testing multiple times.
+        for(int i = 0; i < 3; i++)
+            generate(); //for loop can be added here for testing multiple times.
+        analysis.writeAverages();
     }
 
 
@@ -28,24 +30,24 @@ public class GenerateInput {
      * @throws IOException Throws for FileNotFoundException
      */
     public void generate() throws IOException {
-//		for(int j = 0; j < 3; j++) {
-//			for (int i = 100; i <= 100000000; i = i * 10) {
-//				populate("Merge", i, j);
-//				if (i * 5 < 500000000)
-//					populate("Merge",i * 5, j);
-//				System.runFinalization();
-//			}
-//		}
-        for (int j = 0; j < 3; j++) {
-            for (int i = 100; i <= 100000000; i = i * 10) {
-                populate("Quick", i, j);
-                if (j > 0 && i == 1000000)
-                    break;
-                if (i * 5 < 500000000)
-                    populate("Quick", i * 5, j);
-                System.runFinalization();
-            }
-        }
+		for(int j = 0; j < 3; j++) {
+			for (int i = 100; i <= 100000000; i = i * 10) {
+				populate("Merge", i, j);
+				if (i * 5 < 500000000)
+					populate("Merge",i * 5, j);
+				System.runFinalization();
+			}
+		}
+//        for (int j = 0; j < 3; j++) {
+//            for (int i = 100; i <= 100000000; i = i * 10) {
+//                populate("Quick", i, j);
+//                if (j > 0 && i == 1000000)
+//                    break;
+//                if (i * 5 < 500000000)
+//                    populate("Quick", i * 5, j);
+//                System.runFinalization();
+//            }
+//        }
         //TODO: Bubble and insertion should run real fast for sorted arrays. Higher input size for them?
 //		for(int j = 0; j < 3; j++) {
 //			for (int i = 100; i <= 1000000; i = i * 10) {

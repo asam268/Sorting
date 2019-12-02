@@ -4,17 +4,33 @@ import java.util.ArrayList;
 
 public class Analysis {
 //    private Average[] averages;
-    private ArrayList averages;
+    private ArrayList<Average> averages;
     public Analysis() throws IOException {
-//        this.averages
+        this.averages = new ArrayList<>();
     }
 
-    public void calculateAverage(String algo, String type){
-//        for(int i = 0; i < averages.size(); i++){
-//            if(algo.equalsIgnoreCase() && algo.equalsIgnoreCase(averages[i].getInputType())){
-//
-//            }
-//        }
+    public void calculateAverage(String algo, String type, int n, double runtime){
+        boolean create = true;
+        for(int i = 0; i < averages.size(); i++){
+            if(algo.equalsIgnoreCase(averages.get(i).getAlgo()) && type.equalsIgnoreCase(averages.get(i).getInputType())
+                    && n == averages.get(i).getInputSize()){
+                averages.get(i).add(runtime);
+                create = false;
+            }
+        }
+        if(create){
+            averages.add(new Average(algo, n, type));
+            averages.get(averages.size()-1).add(runtime);
+        }
+    }
+
+    public void writeAverages() throws IOException {
+        FileWriter fw = new FileWriter("sorting_analysis.txt", true);
+        for(Average a : averages){
+            fw.write(a.toString());
+            fw.write(System.lineSeparator());
+        }
+        fw.close();
     }
 
     public void writeAnalysis(String algo, String type, int n, double runtime) throws IOException {
@@ -37,6 +53,7 @@ public class Analysis {
         Merge: 0s
         Quick: 0s
          */
+        calculateAverage(algo, type, n, runtime);
         FileWriter fw = new FileWriter("sorting_analysis.txt", true);
         fw.write("Input Size/Type: " + n + "/" + type);
         fw.write(System.lineSeparator());

@@ -20,7 +20,7 @@ public class Average {
         this.count = 0;
     }
 
-    public void add(int num){
+    public void add(double num){
         count++;
         sum += num;
     }
@@ -29,11 +29,20 @@ public class Average {
         return sum/count;
     }
 
+    public int getInputSize(){
+        return n;
+    }
+
     public String getAlgo() {
         return algo;
     }
 
     public String getInputType() {
         return inputType;
+    }
+
+    @Override
+    public String toString(){
+        return "Average for " + algo + " " + n + "/" + inputType + " is " + getAverage() + "s.";
     }
 }
