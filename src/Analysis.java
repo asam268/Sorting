@@ -1,9 +1,20 @@
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Analysis {
-
+//    private Average[] averages;
+    private ArrayList averages;
     public Analysis() throws IOException {
+//        this.averages
+    }
+
+    public void calculateAverage(String algo, String type){
+//        for(int i = 0; i < averages.size(); i++){
+//            if(algo.equalsIgnoreCase() && algo.equalsIgnoreCase(averages[i].getInputType())){
+//
+//            }
+//        }
     }
 
     public void writeAnalysis(String algo, String type, int n, double runtime) throws IOException {
