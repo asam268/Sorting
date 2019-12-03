@@ -20,7 +20,8 @@ public class GenerateInput {
 
 
     /**
-     * Loop for random array input sizes 100 - 500000000
+     * Loop for random array for varying input sizes. Algorithms with time complexities of O(n^2) run input sizes up to
+     * 1,000,000. Merge sort runs up to 100,000,000, since it finishes within seconds.
      * 0 = random, 1 = sorted, 2 = backwards
      *
      * @throws IOException Throws for FileNotFoundException
@@ -71,10 +72,13 @@ public class GenerateInput {
     }
 
     /**
-     * Populates random arrays and sorts them
+     * For each sorting algorithm, gets a random, sorted, and backwards sorted array of size i and measures the amount
+     * of time it takes for the different algorithms to sort each
      *
-     * @param i input size
-     * @throws IOException Throws for FileNotFoundException
+     * @param algo          Name of the algorithm
+     * @param i             Size of the array to sort
+     * @param inputType     Type of array (random, sorted, backwards sorted)
+     * @throws IOException  Throws for FileNotFoundException
      */
     public void populate(String algo, int i, int inputType) throws IOException {
         Bubble b = new Bubble();
@@ -148,6 +152,11 @@ public class GenerateInput {
         System.out.println();
     }
 
+    /**
+     * Gets a random array of integers of size n
+     * @param n size
+     * @return  integer array
+     */
     public int[] getRandomArray(int n) {
         int[] toReturn = new int[n];
         for (int i = 1; i < n; i++) {
@@ -156,6 +165,12 @@ public class GenerateInput {
         return toReturn;
     }
 
+    /**
+     * Gets a sorted array with values 1 to n
+     *
+     * @param n size
+     * @return  integer array
+     */
     public int[] getSortedArray(int n) {
         int[] toReturn = new int[n];
         for (int i = 0; i < n; i++) {
@@ -164,6 +179,12 @@ public class GenerateInput {
         return toReturn;
     }
 
+    /**
+     * Gets a backwards sorted array with values n to 1
+     *
+     * @param n size
+     * @return  integer array
+     */
     public int[] getBackwardsArray(int n) {
         int[] toReturn = new int[n];
         int j = n;
@@ -172,27 +193,6 @@ public class GenerateInput {
             j--;
         }
         return toReturn;
-    }
-
-    /**
-     * Writes an output file unique to every algorithm and input size
-     *
-     * @param algo Name of the algorithm used to sort the array
-     * @param arr  Sorted array
-     * @param n    Input size
-     * @throws IOException Throws for FileNotFoundException
-     */
-    public void writeCustomFile(String algo, String type, int[] arr, int n, double runtime) throws IOException {
-        String filename = algo + type + n + ".txt";
-        //File file = new File(filename);
-        FileWriter fr = new FileWriter(filename);
-        fr.write("Runtime: " + runtime + "seconds");
-        fr.write(System.lineSeparator());
-        for (int i = 0; i < n; i++) {
-            fr.write("" + arr[i]);
-            fr.write(System.lineSeparator());
-        }
-        fr.close();
     }
 
     /**
