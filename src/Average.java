@@ -1,3 +1,9 @@
+/**
+ * @author Asa Marshall
+ * @author Zhyere Ducksworth
+ *
+ * This class stores information about test runs. Keeps track of run times to determine average.
+ */
 public class Average {
 
     private int n, count;
@@ -20,10 +26,16 @@ public class Average {
         this.count = 0;
     }
 
+    /**
+     * Increments counter, adds parameter to local sum
+     * @param num   double, value added to sum
+     */
     public void add(double num){
         count++;
         sum += num;
     }
+
+    //Accessors
 
     public double getAverage(){
         return sum/count;

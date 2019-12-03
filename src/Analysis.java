@@ -2,13 +2,28 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/**
+ * @author Asa Marshall
+ * @author Zhyere Ducksworth
+ *
+ * This class is used to write test results to a text file.
+ */
 public class Analysis {
-//    private Average[] averages;
+
     private ArrayList<Average> averages;
+
     public Analysis() throws IOException {
         this.averages = new ArrayList<>();
     }
 
+    /**
+     * Checks if there exists an Average object for a specific test case. If yes, add the runtime to the Average
+     *
+     * @param algo
+     * @param type
+     * @param n
+     * @param runtime
+     */
     public void calculateAverage(String algo, String type, int n, double runtime){
         boolean create = true;
         for(int i = 0; i < averages.size(); i++){
