@@ -13,7 +13,7 @@ public class GenerateInput {
 
     public GenerateInput() throws IOException {
         analysis = new Analysis();
-        for(int i = 0; i < 3; i++)
+        for(int i = 0; i < 10; i++)
             generate(); //for loop can be added here for testing multiple times.
         analysis.writeAverages();
     }
@@ -22,10 +22,6 @@ public class GenerateInput {
     /**
      * Loop for random array input sizes 100 - 500000000
      * 0 = random, 1 = sorted, 2 = backwards
-     * TODO: O(n^2) algorithms should run 1m-5m, including Quick sort against already sorted input
-     * TODO: Need to have multiple samples of each run (probably at least 3 to get an average). We can do 10, but we
-     * 		 will probably have to end the test early - its going to take a long time.
-     * TODO: Write code for generating averages? Probably can just do it ourselves.
      *
      * @throws IOException Throws for FileNotFoundException
      */
@@ -38,41 +34,40 @@ public class GenerateInput {
 				System.runFinalization();
 			}
 		}
-//        for (int j = 0; j < 3; j++) {
-//            for (int i = 100; i <= 100000000; i = i * 10) {
-//                populate("Quick", i, j);
-//                if (j > 0 && i == 1000000)
-//                    break;
-//                if (i * 5 < 500000000)
-//                    populate("Quick", i * 5, j);
-//                System.runFinalization();
-//            }
-//        }
-        //TODO: Bubble and insertion should run real fast for sorted arrays. Higher input size for them?
-//		for(int j = 0; j < 3; j++) {
-//			for (int i = 100; i <= 1000000; i = i * 10) {
-//				populate("Bubble", i, j);
-//				if (i * 5 < 5000000)
-//					populate("Bubble",i * 5, j);
-//				System.runFinalization();
-//			}
-//		}
-//		for(int j = 0; j < 3; j++) {
-//			for (int i = 100; i <= 1000000; i = i * 10) {
-//				populate("Insertion", i, j);
-//				if (i * 5 < 5000000)
-//					populate("Insertion",i * 5, j);
-//				System.runFinalization();
-//			}
-//		}
-//		for(int j = 0; j < 3; j++) {
-//			for (int i = 100; i <= 1000000; i = i * 10) {
-//				populate("Selection", i, j);
-//				if (i * 5 < 5000000)
-//					populate("Selection",i * 5, j);
-//				System.runFinalization();
-//			}
-//		}
+        for (int j = 0; j < 3; j++) {
+            for (int i = 100; i <= 100000000; i = i * 10) {
+                populate("Quick", i, j);
+                if (j > 0 && i == 1000000)
+                    break;
+                if (i * 5 < 500000000)
+                    populate("Quick", i * 5, j);
+                System.runFinalization();
+            }
+        }
+		for(int j = 0; j < 3; j++) {
+			for (int i = 100; i <= 1000000; i = i * 10) {
+				populate("Bubble", i, j);
+				if (i * 5 < 5000000)
+					populate("Bubble",i * 5, j);
+				System.runFinalization();
+			}
+		}
+		for(int j = 0; j < 3; j++) {
+			for (int i = 100; i <= 1000000; i = i * 10) {
+				populate("Insertion", i, j);
+				if (i * 5 < 5000000)
+					populate("Insertion",i * 5, j);
+				System.runFinalization();
+			}
+		}
+		for(int j = 0; j < 3; j++) {
+			for (int i = 100; i <= 1000000; i = i * 10) {
+				populate("Selection", i, j);
+				if (i * 5 < 5000000)
+					populate("Selection",i * 5, j);
+				System.runFinalization();
+			}
+		}
     }
 
     /**
@@ -153,15 +148,6 @@ public class GenerateInput {
         System.out.println();
     }
 
-    //TODO: based on length of time in nano/milliseconds, convert the time to a more readable format
-    public void convertTime() {
-        /*
-        millisecond = 0.001 seconds
-        nanosecond = 0.000000001 seconds
-        nanosecond = 0.000001 milliseconds
-         */
-    }
-
     public int[] getRandomArray(int n) {
         int[] toReturn = new int[n];
         for (int i = 1; i < n; i++) {
@@ -190,7 +176,6 @@ public class GenerateInput {
 
     /**
      * Writes an output file unique to every algorithm and input size
-     * TODO: Replace this with the method from Analyis.java
      *
      * @param algo Name of the algorithm used to sort the array
      * @param arr  Sorted array
