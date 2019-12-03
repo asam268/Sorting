@@ -1,0 +1,4681 @@
+Input Size/Type: 100/Random
+Merge: 1.087E-4 seconds
+
+Input Size/Type: 500/Random
+Merge: 5.599E-4 seconds
+
+Input Size/Type: 1000/Random
+Merge: 2.67E-4 seconds
+
+Input Size/Type: 5000/Random
+Merge: 0.0035994 seconds
+
+Input Size/Type: 10000/Random
+Merge: 0.0068679 seconds
+
+Input Size/Type: 50000/Random
+Merge: 0.0211273 seconds
+
+Input Size/Type: 100000/Random
+Merge: 0.0181136 seconds
+
+Input Size/Type: 500000/Random
+Merge: 0.096645 seconds
+
+Input Size/Type: 1000000/Random
+Merge: 0.1690152 seconds
+
+Input Size/Type: 5000000/Random
+Merge: 0.9572163 seconds
+
+Input Size/Type: 10000000/Random
+Merge: 1.5715355 seconds
+
+Input Size/Type: 50000000/Random
+Merge: 8.4601499 seconds
+
+Input Size/Type: 100000000/Random
+Merge: 18.0051289 seconds
+
+Input Size/Type: 100/Sorted
+Merge: 1.03E-5 seconds
+
+Input Size/Type: 500/Sorted
+Merge: 3.53E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Merge: 7.43E-5 seconds
+
+Input Size/Type: 5000/Sorted
+Merge: 3.987E-4 seconds
+
+Input Size/Type: 10000/Sorted
+Merge: 8.765E-4 seconds
+
+Input Size/Type: 50000/Sorted
+Merge: 0.0043035 seconds
+
+Input Size/Type: 100000/Sorted
+Merge: 0.0094365 seconds
+
+Input Size/Type: 500000/Sorted
+Merge: 0.0977663 seconds
+
+Input Size/Type: 1000000/Sorted
+Merge: 0.0640185 seconds
+
+Input Size/Type: 5000000/Sorted
+Merge: 0.3809966 seconds
+
+Input Size/Type: 10000000/Sorted
+Merge: 0.7472331 seconds
+
+Input Size/Type: 50000000/Sorted
+Merge: 3.7360775 seconds
+
+Input Size/Type: 100000000/Sorted
+Merge: 7.8121399 seconds
+
+Input Size/Type: 100/Backwards
+Merge: 5.9E-6 seconds
+
+Input Size/Type: 500/Backwards
+Merge: 2.14E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Merge: 4.67E-5 seconds
+
+Input Size/Type: 5000/Backwards
+Merge: 2.459E-4 seconds
+
+Input Size/Type: 10000/Backwards
+Merge: 5.703E-4 seconds
+
+Input Size/Type: 50000/Backwards
+Merge: 0.0030394 seconds
+
+Input Size/Type: 100000/Backwards
+Merge: 0.0064243 seconds
+
+Input Size/Type: 500000/Backwards
+Merge: 0.1193619 seconds
+
+Input Size/Type: 1000000/Backwards
+Merge: 0.0668929 seconds
+
+Input Size/Type: 5000000/Backwards
+Merge: 0.3618525 seconds
+
+Input Size/Type: 10000000/Backwards
+Merge: 0.7601581 seconds
+
+Input Size/Type: 50000000/Backwards
+Merge: 3.9105737 seconds
+
+Input Size/Type: 100000000/Backwards
+Merge: 8.1125544 seconds
+
+Input Size/Type: 100/Random
+Quick: 6.38E-5 seconds
+
+Input Size/Type: 500/Random
+Quick: 2.584E-4 seconds
+
+Input Size/Type: 1000/Random
+Quick: 1.506E-4 seconds
+
+Input Size/Type: 5000/Random
+Quick: 8.036E-4 seconds
+
+Input Size/Type: 10000/Random
+Quick: 0.0013708 seconds
+
+Input Size/Type: 50000/Random
+Quick: 0.0056561 seconds
+
+Input Size/Type: 100000/Random
+Quick: 0.0082225 seconds
+
+Input Size/Type: 500000/Random
+Quick: 0.0381371 seconds
+
+Input Size/Type: 1000000/Random
+Quick: 0.0827824 seconds
+
+Input Size/Type: 5000000/Random
+Quick: 0.4654703 seconds
+
+Input Size/Type: 10000000/Random
+Quick: 0.965968 seconds
+
+Input Size/Type: 50000000/Random
+Quick: 5.3931409 seconds
+
+Input Size/Type: 100000000/Random
+Quick: 10.982344 seconds
+
+Input Size/Type: 100/Sorted
+Quick: 8.3E-6 seconds
+
+Input Size/Type: 500/Sorted
+Quick: 1.562E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Quick: 6.327E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Quick: 0.0150233 seconds
+
+Input Size/Type: 10000/Sorted
+Quick: 0.059576 seconds
+
+Input Size/Type: 50000/Sorted
+Quick: 1.4847227 seconds
+
+Input Size/Type: 100000/Sorted
+Quick: 5.9359559 seconds
+
+Input Size/Type: 500000/Sorted
+Quick: 148.7514566 seconds
+
+Input Size/Type: 1000000/Sorted
+Quick: 596.3295628 seconds
+
+Input Size/Type: 100/Backwards
+Quick: 7.6E-6 seconds
+
+Input Size/Type: 500/Backwards
+Quick: 1.289E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Quick: 5.218E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Quick: 0.0123202 seconds
+
+Input Size/Type: 10000/Backwards
+Quick: 0.0485009 seconds
+
+Input Size/Type: 50000/Backwards
+Quick: 1.2127411 seconds
+
+Input Size/Type: 100000/Backwards
+Quick: 4.8317078 seconds
+
+Input Size/Type: 500000/Backwards
+Quick: 120.8648853 seconds
+
+Input Size/Type: 1000000/Backwards
+Quick: 485.5685344 seconds
+
+Input Size/Type: 100/Random
+Bubble: 2.013E-4 seconds
+
+Input Size/Type: 500/Random
+Bubble: 0.0026831 seconds
+
+Input Size/Type: 1000/Random
+Bubble: 0.0020462 seconds
+
+Input Size/Type: 5000/Random
+Bubble: 0.0333724 seconds
+
+Input Size/Type: 10000/Random
+Bubble: 0.0959774 seconds
+
+Input Size/Type: 50000/Random
+Bubble: 2.5671465 seconds
+
+Input Size/Type: 100000/Random
+Bubble: 10.2306723 seconds
+
+Input Size/Type: 500000/Random
+Bubble: 257.1498216 seconds
+
+Input Size/Type: 1000000/Random
+Bubble: 1033.2437535 seconds
+
+Input Size/Type: 100/Sorted
+Bubble: 4.3E-6 seconds
+
+Input Size/Type: 500/Sorted
+Bubble: 6.33E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Bubble: 2.415E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Bubble: 0.0056336 seconds
+
+Input Size/Type: 10000/Sorted
+Bubble: 0.0224584 seconds
+
+Input Size/Type: 50000/Sorted
+Bubble: 0.5593287 seconds
+
+Input Size/Type: 100000/Sorted
+Bubble: 2.2332826 seconds
+
+Input Size/Type: 500000/Sorted
+Bubble: 55.8177462 seconds
+
+Input Size/Type: 1000000/Sorted
+Bubble: 224.0810661 seconds
+
+Input Size/Type: 100/Backwards
+Bubble: 7.9E-6 seconds
+
+Input Size/Type: 500/Backwards
+Bubble: 1.801E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Bubble: 7.785E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Bubble: 0.018642 seconds
+
+Input Size/Type: 10000/Backwards
+Bubble: 0.0738299 seconds
+
+Input Size/Type: 50000/Backwards
+Bubble: 1.8515797 seconds
+
+Input Size/Type: 100000/Backwards
+Bubble: 7.4050199 seconds
+
+Input Size/Type: 500000/Backwards
+Bubble: 185.2860834 seconds
+
+Input Size/Type: 1000000/Backwards
+Bubble: 742.5615509 seconds
+
+Input Size/Type: 100/Random
+Insertion: 6.09E-5 seconds
+
+Input Size/Type: 500/Random
+Insertion: 8.891E-4 seconds
+
+Input Size/Type: 1000/Random
+Insertion: 0.0014651 seconds
+
+Input Size/Type: 5000/Random
+Insertion: 0.004975 seconds
+
+Input Size/Type: 10000/Random
+Insertion: 0.010278 seconds
+
+Input Size/Type: 50000/Random
+Insertion: 0.1167018 seconds
+
+Input Size/Type: 100000/Random
+Insertion: 0.4697257 seconds
+
+Input Size/Type: 500000/Random
+Insertion: 12.0063567 seconds
+
+Input Size/Type: 1000000/Random
+Insertion: 48.4560044 seconds
+
+Input Size/Type: 100/Sorted
+Insertion: 7.0E-7 seconds
+
+Input Size/Type: 500/Sorted
+Insertion: 1.5E-6 seconds
+
+Input Size/Type: 1000/Sorted
+Insertion: 1.9E-6 seconds
+
+Input Size/Type: 5000/Sorted
+Insertion: 7.9E-6 seconds
+
+Input Size/Type: 10000/Sorted
+Insertion: 1.89E-5 seconds
+
+Input Size/Type: 50000/Sorted
+Insertion: 7.51E-5 seconds
+
+Input Size/Type: 100000/Sorted
+Insertion: 1.502E-4 seconds
+
+Input Size/Type: 500000/Sorted
+Insertion: 7.51E-4 seconds
+
+Input Size/Type: 1000000/Sorted
+Insertion: 0.0015047 seconds
+
+Input Size/Type: 100/Backwards
+Insertion: 2.296E-4 seconds
+
+Input Size/Type: 500/Backwards
+Insertion: 3.967E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Insertion: 0.0015377 seconds
+
+Input Size/Type: 5000/Backwards
+Insertion: 0.0060795 seconds
+
+Input Size/Type: 10000/Backwards
+Insertion: 0.0189 seconds
+
+Input Size/Type: 50000/Backwards
+Insertion: 0.4660993 seconds
+
+Input Size/Type: 100000/Backwards
+Insertion: 1.8974577 seconds
+
+Input Size/Type: 500000/Backwards
+Insertion: 48.4084647 seconds
+
+Input Size/Type: 1000000/Backwards
+Insertion: 195.7927713 seconds
+
+Input Size/Type: 100/Random
+Selection: 1.412E-4 seconds
+
+Input Size/Type: 500/Random
+Selection: 0.0017184 seconds
+
+Input Size/Type: 1000/Random
+Selection: 0.0015074 seconds
+
+Input Size/Type: 5000/Random
+Selection: 0.0195189 seconds
+
+Input Size/Type: 10000/Random
+Selection: 0.0412245 seconds
+
+Input Size/Type: 50000/Random
+Selection: 1.0206433 seconds
+
+Input Size/Type: 100000/Random
+Selection: 4.0752379 seconds
+
+Input Size/Type: 500000/Random
+Selection: 101.8434598 seconds
+
+Input Size/Type: 1000000/Random
+Selection: 408.4962303 seconds
+
+Input Size/Type: 100/Sorted
+Selection: 5.9E-6 seconds
+
+Input Size/Type: 500/Sorted
+Selection: 1.063E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Selection: 4.191E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Selection: 0.0102966 seconds
+
+Input Size/Type: 10000/Sorted
+Selection: 0.0410037 seconds
+
+Input Size/Type: 50000/Sorted
+Selection: 1.017795 seconds
+
+Input Size/Type: 100000/Sorted
+Selection: 4.0701876 seconds
+
+Input Size/Type: 500000/Sorted
+Selection: 101.7514674 seconds
+
+Input Size/Type: 1000000/Sorted
+Selection: 408.4783788 seconds
+
+Input Size/Type: 100/Backwards
+Selection: 8.5E-6 seconds
+
+Input Size/Type: 500/Backwards
+Selection: 1.473E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Selection: 5.742E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Selection: 0.0140181 seconds
+
+Input Size/Type: 10000/Backwards
+Selection: 0.05569 seconds
+
+Input Size/Type: 50000/Backwards
+Selection: 1.3972121 seconds
+
+Input Size/Type: 100000/Backwards
+Selection: 5.5918376 seconds
+
+Input Size/Type: 500000/Backwards
+Selection: 139.6940934 seconds
+
+Input Size/Type: 1000000/Backwards
+Selection: 559.1664874 seconds
+
+Input Size/Type: 100/Random
+Merge: 1.24E-5 seconds
+
+Input Size/Type: 500/Random
+Merge: 4.9E-5 seconds
+
+Input Size/Type: 1000/Random
+Merge: 1.081E-4 seconds
+
+Input Size/Type: 5000/Random
+Merge: 6.076E-4 seconds
+
+Input Size/Type: 10000/Random
+Merge: 0.0012351 seconds
+
+Input Size/Type: 50000/Random
+Merge: 0.0071721 seconds
+
+Input Size/Type: 100000/Random
+Merge: 0.0151869 seconds
+
+Input Size/Type: 500000/Random
+Merge: 0.1139543 seconds
+
+Input Size/Type: 1000000/Random
+Merge: 0.1759756 seconds
+
+Input Size/Type: 5000000/Random
+Merge: 0.7711263 seconds
+
+Input Size/Type: 10000000/Random
+Merge: 1.5970902 seconds
+
+Input Size/Type: 50000000/Random
+Merge: 8.5721098 seconds
+
+Input Size/Type: 100000000/Random
+Merge: 17.7724232 seconds
+
+Input Size/Type: 100/Sorted
+Merge: 1.2E-5 seconds
+
+Input Size/Type: 500/Sorted
+Merge: 3.56E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Merge: 8.16E-5 seconds
+
+Input Size/Type: 5000/Sorted
+Merge: 4.143E-4 seconds
+
+Input Size/Type: 10000/Sorted
+Merge: 8.691E-4 seconds
+
+Input Size/Type: 50000/Sorted
+Merge: 0.0045892 seconds
+
+Input Size/Type: 100000/Sorted
+Merge: 0.009273 seconds
+
+Input Size/Type: 500000/Sorted
+Merge: 0.1102943 seconds
+
+Input Size/Type: 1000000/Sorted
+Merge: 0.0658626 seconds
+
+Input Size/Type: 5000000/Sorted
+Merge: 0.3719413 seconds
+
+Input Size/Type: 10000000/Sorted
+Merge: 0.7488615 seconds
+
+Input Size/Type: 50000000/Sorted
+Merge: 3.9283418 seconds
+
+Input Size/Type: 100000000/Sorted
+Merge: 7.9277341 seconds
+
+Input Size/Type: 100/Backwards
+Merge: 1.13E-5 seconds
+
+Input Size/Type: 500/Backwards
+Merge: 3.8E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Merge: 8.52E-5 seconds
+
+Input Size/Type: 5000/Backwards
+Merge: 4.246E-4 seconds
+
+Input Size/Type: 10000/Backwards
+Merge: 8.739E-4 seconds
+
+Input Size/Type: 50000/Backwards
+Merge: 0.0036671 seconds
+
+Input Size/Type: 100000/Backwards
+Merge: 0.0063262 seconds
+
+Input Size/Type: 500000/Backwards
+Merge: 0.1003816 seconds
+
+Input Size/Type: 1000000/Backwards
+Merge: 0.0681579 seconds
+
+Input Size/Type: 5000000/Backwards
+Merge: 0.3858506 seconds
+
+Input Size/Type: 10000000/Backwards
+Merge: 0.7773973 seconds
+
+Input Size/Type: 50000000/Backwards
+Merge: 4.0790162 seconds
+
+Input Size/Type: 100000000/Backwards
+Merge: 8.2982199 seconds
+
+Input Size/Type: 100/Random
+Quick: 4.8E-6 seconds
+
+Input Size/Type: 500/Random
+Quick: 2.21E-5 seconds
+
+Input Size/Type: 1000/Random
+Quick: 5.09E-5 seconds
+
+Input Size/Type: 5000/Random
+Quick: 2.834E-4 seconds
+
+Input Size/Type: 10000/Random
+Quick: 5.81E-4 seconds
+
+Input Size/Type: 50000/Random
+Quick: 0.0034197 seconds
+
+Input Size/Type: 100000/Random
+Quick: 0.0070776 seconds
+
+Input Size/Type: 500000/Random
+Quick: 0.0390499 seconds
+
+Input Size/Type: 1000000/Random
+Quick: 0.0837201 seconds
+
+Input Size/Type: 5000000/Random
+Quick: 0.4611109 seconds
+
+Input Size/Type: 10000000/Random
+Quick: 0.9752426 seconds
+
+Input Size/Type: 50000000/Random
+Quick: 5.3255846 seconds
+
+Input Size/Type: 100000000/Random
+Quick: 10.9894989 seconds
+
+Input Size/Type: 100/Sorted
+Quick: 8.2E-6 seconds
+
+Input Size/Type: 500/Sorted
+Quick: 1.562E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Quick: 6.16E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Quick: 0.014974 seconds
+
+Input Size/Type: 10000/Sorted
+Quick: 0.059685 seconds
+
+Input Size/Type: 50000/Sorted
+Quick: 1.4846474 seconds
+
+Input Size/Type: 100000/Sorted
+Quick: 5.9515024 seconds
+
+Input Size/Type: 500000/Sorted
+Quick: 148.4818454 seconds
+
+Input Size/Type: 1000000/Sorted
+Quick: 594.9726467 seconds
+
+Input Size/Type: 100/Backwards
+Quick: 7.6E-6 seconds
+
+Input Size/Type: 500/Backwards
+Quick: 1.289E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Quick: 5.323E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Quick: 0.0122229 seconds
+
+Input Size/Type: 10000/Backwards
+Quick: 0.0486033 seconds
+
+Input Size/Type: 50000/Backwards
+Quick: 1.2084609 seconds
+
+Input Size/Type: 100000/Backwards
+Quick: 4.8290082 seconds
+
+Input Size/Type: 500000/Backwards
+Quick: 120.7769514 seconds
+
+Input Size/Type: 1000000/Backwards
+Quick: 484.2506329 seconds
+
+Input Size/Type: 100/Random
+Bubble: 1.37E-5 seconds
+
+Input Size/Type: 500/Random
+Bubble: 2.327E-4 seconds
+
+Input Size/Type: 1000/Random
+Bubble: 8.72E-4 seconds
+
+Input Size/Type: 5000/Random
+Bubble: 0.022826 seconds
+
+Input Size/Type: 10000/Random
+Bubble: 0.0966923 seconds
+
+Input Size/Type: 50000/Random
+Bubble: 2.5555166 seconds
+
+Input Size/Type: 100000/Random
+Bubble: 10.2552515 seconds
+
+Input Size/Type: 500000/Random
+Bubble: 256.6477438 seconds
+
+Input Size/Type: 1000000/Random
+Bubble: 1031.5428564 seconds
+
+Input Size/Type: 100/Sorted
+Bubble: 4.4E-6 seconds
+
+Input Size/Type: 500/Sorted
+Bubble: 6.5E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Bubble: 2.417E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Bubble: 0.0056636 seconds
+
+Input Size/Type: 10000/Sorted
+Bubble: 0.0224396 seconds
+
+Input Size/Type: 50000/Sorted
+Bubble: 0.5592376 seconds
+
+Input Size/Type: 100000/Sorted
+Bubble: 2.2330935 seconds
+
+Input Size/Type: 500000/Sorted
+Bubble: 55.8684443 seconds
+
+Input Size/Type: 1000000/Sorted
+Bubble: 226.0207948 seconds
+
+Input Size/Type: 100/Backwards
+Bubble: 8.0E-6 seconds
+
+Input Size/Type: 500/Backwards
+Bubble: 1.845E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Bubble: 7.577E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Bubble: 0.0184873 seconds
+
+Input Size/Type: 10000/Backwards
+Bubble: 0.0746942 seconds
+
+Input Size/Type: 50000/Backwards
+Bubble: 1.8686465 seconds
+
+Input Size/Type: 100000/Backwards
+Bubble: 7.4145366 seconds
+
+Input Size/Type: 500000/Backwards
+Bubble: 185.565167 seconds
+
+Input Size/Type: 1000000/Backwards
+Bubble: 742.5771773 seconds
+
+Input Size/Type: 100/Random
+Insertion: 1.9E-6 seconds
+
+Input Size/Type: 500/Random
+Insertion: 1.73E-5 seconds
+
+Input Size/Type: 1000/Random
+Insertion: 6.07E-5 seconds
+
+Input Size/Type: 5000/Random
+Insertion: 0.0011865 seconds
+
+Input Size/Type: 10000/Random
+Insertion: 0.0046817 seconds
+
+Input Size/Type: 50000/Random
+Insertion: 0.1166595 seconds
+
+Input Size/Type: 100000/Random
+Insertion: 0.4679557 seconds
+
+Input Size/Type: 500000/Random
+Insertion: 12.0130429 seconds
+
+Input Size/Type: 1000000/Random
+Insertion: 48.5704436 seconds
+
+Input Size/Type: 100/Sorted
+Insertion: 8.5E-6 seconds
+
+Input Size/Type: 500/Sorted
+Insertion: 1.0E-6 seconds
+
+Input Size/Type: 1000/Sorted
+Insertion: 1.6E-6 seconds
+
+Input Size/Type: 5000/Sorted
+Insertion: 7.5E-6 seconds
+
+Input Size/Type: 10000/Sorted
+Insertion: 1.76E-5 seconds
+
+Input Size/Type: 50000/Sorted
+Insertion: 7.46E-5 seconds
+
+Input Size/Type: 100000/Sorted
+Insertion: 1.495E-4 seconds
+
+Input Size/Type: 500000/Sorted
+Insertion: 7.551E-4 seconds
+
+Input Size/Type: 1000000/Sorted
+Insertion: 0.001538 seconds
+
+Input Size/Type: 100/Backwards
+Insertion: 4.2E-6 seconds
+
+Input Size/Type: 500/Backwards
+Insertion: 5.31E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Insertion: 2.016E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Insertion: 0.0047192 seconds
+
+Input Size/Type: 10000/Backwards
+Insertion: 0.0187643 seconds
+
+Input Size/Type: 50000/Backwards
+Insertion: 0.4658663 seconds
+
+Input Size/Type: 100000/Backwards
+Insertion: 1.8990812 seconds
+
+Input Size/Type: 500000/Backwards
+Insertion: 48.3713456 seconds
+
+Input Size/Type: 1000000/Backwards
+Insertion: 196.0047274 seconds
+
+Input Size/Type: 100/Random
+Selection: 1.66E-5 seconds
+
+Input Size/Type: 500/Random
+Selection: 1.205E-4 seconds
+
+Input Size/Type: 1000/Random
+Selection: 4.556E-4 seconds
+
+Input Size/Type: 5000/Random
+Selection: 0.0104644 seconds
+
+Input Size/Type: 10000/Random
+Selection: 0.0412213 seconds
+
+Input Size/Type: 50000/Random
+Selection: 1.0203817 seconds
+
+Input Size/Type: 100000/Random
+Selection: 4.0762835 seconds
+
+Input Size/Type: 500000/Random
+Selection: 101.7774348 seconds
+
+Input Size/Type: 1000000/Random
+Selection: 407.8187732 seconds
+
+Input Size/Type: 100/Sorted
+Selection: 5.6E-6 seconds
+
+Input Size/Type: 500/Sorted
+Selection: 1.063E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Selection: 4.188E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Selection: 0.0101961 seconds
+
+Input Size/Type: 10000/Sorted
+Selection: 0.0408149 seconds
+
+Input Size/Type: 50000/Sorted
+Selection: 1.0169075 seconds
+
+Input Size/Type: 100000/Sorted
+Selection: 4.067345 seconds
+
+Input Size/Type: 500000/Sorted
+Selection: 101.6555396 seconds
+
+Input Size/Type: 1000000/Sorted
+Selection: 407.3959185 seconds
+
+Input Size/Type: 100/Backwards
+Selection: 8.7E-6 seconds
+
+Input Size/Type: 500/Backwards
+Selection: 1.475E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Selection: 5.887E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Selection: 0.014053 seconds
+
+Input Size/Type: 10000/Backwards
+Selection: 0.0564626 seconds
+
+Input Size/Type: 50000/Backwards
+Selection: 1.4025286 seconds
+
+Input Size/Type: 100000/Backwards
+Selection: 5.6168793 seconds
+
+Input Size/Type: 500000/Backwards
+Selection: 140.0560525 seconds
+
+Input Size/Type: 1000000/Backwards
+Selection: 559.8730848 seconds
+
+Input Size/Type: 100/Random
+Merge: 3.91E-5 seconds
+
+Input Size/Type: 500/Random
+Merge: 4.88E-5 seconds
+
+Input Size/Type: 1000/Random
+Merge: 1.069E-4 seconds
+
+Input Size/Type: 5000/Random
+Merge: 6.101E-4 seconds
+
+Input Size/Type: 10000/Random
+Merge: 0.0012379 seconds
+
+Input Size/Type: 50000/Random
+Merge: 0.0070184 seconds
+
+Input Size/Type: 100000/Random
+Merge: 0.0148138 seconds
+
+Input Size/Type: 500000/Random
+Merge: 0.1279954 seconds
+
+Input Size/Type: 1000000/Random
+Merge: 0.1491177 seconds
+
+Input Size/Type: 5000000/Random
+Merge: 0.7741207 seconds
+
+Input Size/Type: 10000000/Random
+Merge: 1.5933073 seconds
+
+Input Size/Type: 50000000/Random
+Merge: 8.5501581 seconds
+
+Input Size/Type: 100000000/Random
+Merge: 17.8948987 seconds
+
+Input Size/Type: 100/Sorted
+Merge: 9.9E-6 seconds
+
+Input Size/Type: 500/Sorted
+Merge: 3.6E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Merge: 7.41E-5 seconds
+
+Input Size/Type: 5000/Sorted
+Merge: 4.029E-4 seconds
+
+Input Size/Type: 10000/Sorted
+Merge: 8.654E-4 seconds
+
+Input Size/Type: 50000/Sorted
+Merge: 0.0046322 seconds
+
+Input Size/Type: 100000/Sorted
+Merge: 0.0094631 seconds
+
+Input Size/Type: 500000/Sorted
+Merge: 0.1003209 seconds
+
+Input Size/Type: 1000000/Sorted
+Merge: 0.0647458 seconds
+
+Input Size/Type: 5000000/Sorted
+Merge: 0.3704235 seconds
+
+Input Size/Type: 10000000/Sorted
+Merge: 0.7519877 seconds
+
+Input Size/Type: 50000000/Sorted
+Merge: 3.8484793 seconds
+
+Input Size/Type: 100000000/Sorted
+Merge: 7.9065558 seconds
+
+Input Size/Type: 100/Backwards
+Merge: 1.14E-5 seconds
+
+Input Size/Type: 500/Backwards
+Merge: 3.66E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Merge: 7.91E-5 seconds
+
+Input Size/Type: 5000/Backwards
+Merge: 4.093E-4 seconds
+
+Input Size/Type: 10000/Backwards
+Merge: 8.527E-4 seconds
+
+Input Size/Type: 50000/Backwards
+Merge: 0.0045356 seconds
+
+Input Size/Type: 100000/Backwards
+Merge: 0.0071512 seconds
+
+Input Size/Type: 500000/Backwards
+Merge: 0.102855 seconds
+
+Input Size/Type: 1000000/Backwards
+Merge: 0.0675787 seconds
+
+Input Size/Type: 5000000/Backwards
+Merge: 0.3817801 seconds
+
+Input Size/Type: 10000000/Backwards
+Merge: 0.7746299 seconds
+
+Input Size/Type: 50000000/Backwards
+Merge: 4.006422 seconds
+
+Input Size/Type: 100000000/Backwards
+Merge: 8.3158961 seconds
+
+Input Size/Type: 100/Random
+Quick: 2.74E-5 seconds
+
+Input Size/Type: 500/Random
+Quick: 2.34E-5 seconds
+
+Input Size/Type: 1000/Random
+Quick: 5.26E-5 seconds
+
+Input Size/Type: 5000/Random
+Quick: 2.748E-4 seconds
+
+Input Size/Type: 10000/Random
+Quick: 5.789E-4 seconds
+
+Input Size/Type: 50000/Random
+Quick: 0.0033826 seconds
+
+Input Size/Type: 100000/Random
+Quick: 0.0070864 seconds
+
+Input Size/Type: 500000/Random
+Quick: 0.0391955 seconds
+
+Input Size/Type: 1000000/Random
+Quick: 0.0832005 seconds
+
+Input Size/Type: 5000000/Random
+Quick: 0.4685772 seconds
+
+Input Size/Type: 10000000/Random
+Quick: 0.9860428 seconds
+
+Input Size/Type: 50000000/Random
+Quick: 5.301925 seconds
+
+Input Size/Type: 100000000/Random
+Quick: 10.8434313 seconds
+
+Input Size/Type: 100/Sorted
+Quick: 7.8E-6 seconds
+
+Input Size/Type: 500/Sorted
+Quick: 1.56E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Quick: 6.117E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Quick: 0.0149208 seconds
+
+Input Size/Type: 10000/Sorted
+Quick: 0.0596365 seconds
+
+Input Size/Type: 50000/Sorted
+Quick: 1.4877752 seconds
+
+Input Size/Type: 100000/Sorted
+Quick: 5.9439944 seconds
+
+Input Size/Type: 500000/Sorted
+Quick: 148.3771437 seconds
+
+Input Size/Type: 1000000/Sorted
+Quick: 594.2828639 seconds
+
+Input Size/Type: 100/Backwards
+Quick: 7.6E-6 seconds
+
+Input Size/Type: 500/Backwards
+Quick: 1.287E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Quick: 5.026E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Quick: 0.0121268 seconds
+
+Input Size/Type: 10000/Backwards
+Quick: 0.0484391 seconds
+
+Input Size/Type: 50000/Backwards
+Quick: 1.2069916 seconds
+
+Input Size/Type: 100000/Backwards
+Quick: 4.8268541 seconds
+
+Input Size/Type: 500000/Backwards
+Quick: 120.7423834 seconds
+
+Input Size/Type: 1000000/Backwards
+Quick: 484.3743745 seconds
+
+Input Size/Type: 100/Random
+Bubble: 4.86E-5 seconds
+
+Input Size/Type: 500/Random
+Bubble: 2.257E-4 seconds
+
+Input Size/Type: 1000/Random
+Bubble: 8.733E-4 seconds
+
+Input Size/Type: 5000/Random
+Bubble: 0.0230549 seconds
+
+Input Size/Type: 10000/Random
+Bubble: 0.0970877 seconds
+
+Input Size/Type: 50000/Random
+Bubble: 2.5490911 seconds
+
+Input Size/Type: 100000/Random
+Bubble: 10.2472887 seconds
+
+Input Size/Type: 500000/Random
+Bubble: 256.5682664 seconds
+
+Input Size/Type: 1000000/Random
+Bubble: 1033.1427532 seconds
+
+Input Size/Type: 100/Sorted
+Bubble: 4.4E-6 seconds
+
+Input Size/Type: 500/Sorted
+Bubble: 6.33E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Bubble: 2.414E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Bubble: 0.0056417 seconds
+
+Input Size/Type: 10000/Sorted
+Bubble: 0.0224525 seconds
+
+Input Size/Type: 50000/Sorted
+Bubble: 0.5584963 seconds
+
+Input Size/Type: 100000/Sorted
+Bubble: 2.2344241 seconds
+
+Input Size/Type: 500000/Sorted
+Bubble: 56.1679637 seconds
+
+Input Size/Type: 1000000/Sorted
+Bubble: 225.0966027 seconds
+
+Input Size/Type: 100/Backwards
+Bubble: 7.5E-6 seconds
+
+Input Size/Type: 500/Backwards
+Bubble: 1.799E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Bubble: 7.319E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Bubble: 0.018388 seconds
+
+Input Size/Type: 10000/Backwards
+Bubble: 0.0737489 seconds
+
+Input Size/Type: 50000/Backwards
+Bubble: 1.8498448 seconds
+
+Input Size/Type: 100000/Backwards
+Bubble: 7.4067718 seconds
+
+Input Size/Type: 500000/Backwards
+Bubble: 185.3098225 seconds
+
+Input Size/Type: 1000000/Backwards
+Bubble: 742.8565605 seconds
+
+Input Size/Type: 100/Random
+Insertion: 2.1E-6 seconds
+
+Input Size/Type: 500/Random
+Insertion: 1.66E-5 seconds
+
+Input Size/Type: 1000/Random
+Insertion: 6.04E-5 seconds
+
+Input Size/Type: 5000/Random
+Insertion: 0.001199 seconds
+
+Input Size/Type: 10000/Random
+Insertion: 0.004969 seconds
+
+Input Size/Type: 50000/Random
+Insertion: 0.1169199 seconds
+
+Input Size/Type: 100000/Random
+Insertion: 0.467415 seconds
+
+Input Size/Type: 500000/Random
+Insertion: 12.0240157 seconds
+
+Input Size/Type: 1000000/Random
+Insertion: 48.4084613 seconds
+
+Input Size/Type: 100/Sorted
+Insertion: 6.0E-7 seconds
+
+Input Size/Type: 500/Sorted
+Insertion: 9.0E-7 seconds
+
+Input Size/Type: 1000/Sorted
+Insertion: 1.6E-6 seconds
+
+Input Size/Type: 5000/Sorted
+Insertion: 7.6E-6 seconds
+
+Input Size/Type: 10000/Sorted
+Insertion: 1.95E-5 seconds
+
+Input Size/Type: 50000/Sorted
+Insertion: 7.39E-5 seconds
+
+Input Size/Type: 100000/Sorted
+Insertion: 1.478E-4 seconds
+
+Input Size/Type: 500000/Sorted
+Insertion: 7.66E-4 seconds
+
+Input Size/Type: 1000000/Sorted
+Insertion: 0.0014971 seconds
+
+Input Size/Type: 100/Backwards
+Insertion: 3.8E-6 seconds
+
+Input Size/Type: 500/Backwards
+Insertion: 5.27E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Insertion: 2.005E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Insertion: 0.0047118 seconds
+
+Input Size/Type: 10000/Backwards
+Insertion: 0.0186541 seconds
+
+Input Size/Type: 50000/Backwards
+Insertion: 0.4655271 seconds
+
+Input Size/Type: 100000/Backwards
+Insertion: 1.8999835 seconds
+
+Input Size/Type: 500000/Backwards
+Insertion: 48.4077779 seconds
+
+Input Size/Type: 1000000/Backwards
+Insertion: 196.4289007 seconds
+
+Input Size/Type: 100/Random
+Selection: 8.3E-6 seconds
+
+Input Size/Type: 500/Random
+Selection: 1.21E-4 seconds
+
+Input Size/Type: 1000/Random
+Selection: 4.535E-4 seconds
+
+Input Size/Type: 5000/Random
+Selection: 0.0104645 seconds
+
+Input Size/Type: 10000/Random
+Selection: 0.041581 seconds
+
+Input Size/Type: 50000/Random
+Selection: 1.0218342 seconds
+
+Input Size/Type: 100000/Random
+Selection: 4.0794567 seconds
+
+Input Size/Type: 500000/Random
+Selection: 101.8006867 seconds
+
+Input Size/Type: 1000000/Random
+Selection: 409.6777419 seconds
+
+Input Size/Type: 100/Sorted
+Selection: 5.7E-6 seconds
+
+Input Size/Type: 500/Sorted
+Selection: 1.065E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Selection: 4.185E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Selection: 0.0103107 seconds
+
+Input Size/Type: 10000/Sorted
+Selection: 0.0407418 seconds
+
+Input Size/Type: 50000/Sorted
+Selection: 1.0171402 seconds
+
+Input Size/Type: 100000/Sorted
+Selection: 4.0706917 seconds
+
+Input Size/Type: 500000/Sorted
+Selection: 101.8076626 seconds
+
+Input Size/Type: 1000000/Sorted
+Selection: 409.7045715 seconds
+
+Input Size/Type: 100/Backwards
+Selection: 8.1E-6 seconds
+
+Input Size/Type: 500/Backwards
+Selection: 1.468E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Selection: 5.808E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Selection: 0.0139627 seconds
+
+Input Size/Type: 10000/Backwards
+Selection: 0.0558085 seconds
+
+Input Size/Type: 50000/Backwards
+Selection: 1.4055245 seconds
+
+Input Size/Type: 100000/Backwards
+Selection: 5.6226633 seconds
+
+Input Size/Type: 500000/Backwards
+Selection: 140.3644126 seconds
+
+Input Size/Type: 1000000/Backwards
+Selection: 561.222073 seconds
+
+Input Size/Type: 100/Random
+Merge: 1.27E-5 seconds
+
+Input Size/Type: 500/Random
+Merge: 4.97E-5 seconds
+
+Input Size/Type: 1000/Random
+Merge: 1.18E-4 seconds
+
+Input Size/Type: 5000/Random
+Merge: 5.994E-4 seconds
+
+Input Size/Type: 10000/Random
+Merge: 0.0012427 seconds
+
+Input Size/Type: 50000/Random
+Merge: 0.0068937 seconds
+
+Input Size/Type: 100000/Random
+Merge: 0.014844 seconds
+
+Input Size/Type: 500000/Random
+Merge: 0.140004 seconds
+
+Input Size/Type: 1000000/Random
+Merge: 0.1486972 seconds
+
+Input Size/Type: 5000000/Random
+Merge: 0.7735434 seconds
+
+Input Size/Type: 10000000/Random
+Merge: 1.5964779 seconds
+
+Input Size/Type: 50000000/Random
+Merge: 8.5485896 seconds
+
+Input Size/Type: 100000000/Random
+Merge: 17.734615 seconds
+
+Input Size/Type: 100/Sorted
+Merge: 9.5E-6 seconds
+
+Input Size/Type: 500/Sorted
+Merge: 3.46E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Merge: 7.46E-5 seconds
+
+Input Size/Type: 5000/Sorted
+Merge: 3.937E-4 seconds
+
+Input Size/Type: 10000/Sorted
+Merge: 8.463E-4 seconds
+
+Input Size/Type: 50000/Sorted
+Merge: 0.0045823 seconds
+
+Input Size/Type: 100000/Sorted
+Merge: 0.0092636 seconds
+
+Input Size/Type: 500000/Sorted
+Merge: 0.1025906 seconds
+
+Input Size/Type: 1000000/Sorted
+Merge: 0.0656389 seconds
+
+Input Size/Type: 5000000/Sorted
+Merge: 0.3693958 seconds
+
+Input Size/Type: 10000000/Sorted
+Merge: 0.7410893 seconds
+
+Input Size/Type: 50000000/Sorted
+Merge: 3.863819 seconds
+
+Input Size/Type: 100000000/Sorted
+Merge: 8.0271188 seconds
+
+Input Size/Type: 100/Backwards
+Merge: 9.6E-6 seconds
+
+Input Size/Type: 500/Backwards
+Merge: 3.43E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Merge: 7.53E-5 seconds
+
+Input Size/Type: 5000/Backwards
+Merge: 3.926E-4 seconds
+
+Input Size/Type: 10000/Backwards
+Merge: 8.35E-4 seconds
+
+Input Size/Type: 50000/Backwards
+Merge: 0.0044423 seconds
+
+Input Size/Type: 100000/Backwards
+Merge: 0.0070022 seconds
+
+Input Size/Type: 500000/Backwards
+Merge: 0.1020092 seconds
+
+Input Size/Type: 1000000/Backwards
+Merge: 0.0678951 seconds
+
+Input Size/Type: 5000000/Backwards
+Merge: 0.383517 seconds
+
+Input Size/Type: 10000000/Backwards
+Merge: 0.7793321 seconds
+
+Input Size/Type: 50000000/Backwards
+Merge: 4.0204686 seconds
+
+Input Size/Type: 100000000/Backwards
+Merge: 8.307298 seconds
+
+Input Size/Type: 100/Random
+Quick: 4.5E-6 seconds
+
+Input Size/Type: 500/Random
+Quick: 2.2E-5 seconds
+
+Input Size/Type: 1000/Random
+Quick: 5.27E-5 seconds
+
+Input Size/Type: 5000/Random
+Quick: 2.765E-4 seconds
+
+Input Size/Type: 10000/Random
+Quick: 6.082E-4 seconds
+
+Input Size/Type: 50000/Random
+Quick: 0.0033522 seconds
+
+Input Size/Type: 100000/Random
+Quick: 0.0068745 seconds
+
+Input Size/Type: 500000/Random
+Quick: 0.039408 seconds
+
+Input Size/Type: 1000000/Random
+Quick: 0.0816419 seconds
+
+Input Size/Type: 5000000/Random
+Quick: 0.463443 seconds
+
+Input Size/Type: 10000000/Random
+Quick: 0.9734859 seconds
+
+Input Size/Type: 50000000/Random
+Quick: 5.3705273 seconds
+
+Input Size/Type: 100000000/Random
+Quick: 11.0456181 seconds
+
+Input Size/Type: 100/Sorted
+Quick: 7.8E-6 seconds
+
+Input Size/Type: 500/Sorted
+Quick: 1.558E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Quick: 6.157E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Quick: 0.0149063 seconds
+
+Input Size/Type: 10000/Sorted
+Quick: 0.0595431 seconds
+
+Input Size/Type: 50000/Sorted
+Quick: 1.4832012 seconds
+
+Input Size/Type: 100000/Sorted
+Quick: 5.935742 seconds
+
+Input Size/Type: 500000/Sorted
+Quick: 148.4507215 seconds
+
+Input Size/Type: 1000000/Sorted
+Quick: 595.8441925 seconds
+
+Input Size/Type: 100/Backwards
+Quick: 7.4E-6 seconds
+
+Input Size/Type: 500/Backwards
+Quick: 1.287E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Quick: 5.035E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Quick: 0.0121835 seconds
+
+Input Size/Type: 10000/Backwards
+Quick: 0.0484523 seconds
+
+Input Size/Type: 50000/Backwards
+Quick: 1.2113457 seconds
+
+Input Size/Type: 100000/Backwards
+Quick: 4.832859 seconds
+
+Input Size/Type: 500000/Backwards
+Quick: 120.740026 seconds
+
+Input Size/Type: 1000000/Backwards
+Quick: 485.1810649 seconds
+
+Input Size/Type: 100/Random
+Bubble: 1.23E-5 seconds
+
+Input Size/Type: 500/Random
+Bubble: 2.242E-4 seconds
+
+Input Size/Type: 1000/Random
+Bubble: 8.783E-4 seconds
+
+Input Size/Type: 5000/Random
+Bubble: 0.022846 seconds
+
+Input Size/Type: 10000/Random
+Bubble: 0.0978079 seconds
+
+Input Size/Type: 50000/Random
+Bubble: 2.5532487 seconds
+
+Input Size/Type: 100000/Random
+Bubble: 10.2104149 seconds
+
+Input Size/Type: 500000/Random
+Bubble: 256.221907 seconds
+
+Input Size/Type: 1000000/Random
+Bubble: 1033.2818948 seconds
+
+Input Size/Type: 100/Sorted
+Bubble: 4.2E-6 seconds
+
+Input Size/Type: 500/Sorted
+Bubble: 6.32E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Bubble: 2.412E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Bubble: 0.0056287 seconds
+
+Input Size/Type: 10000/Sorted
+Bubble: 0.02253 seconds
+
+Input Size/Type: 50000/Sorted
+Bubble: 0.5590893 seconds
+
+Input Size/Type: 100000/Sorted
+Bubble: 2.2327933 seconds
+
+Input Size/Type: 500000/Sorted
+Bubble: 55.8410926 seconds
+
+Input Size/Type: 1000000/Sorted
+Bubble: 224.2113669 seconds
+
+Input Size/Type: 100/Backwards
+Bubble: 7.5E-6 seconds
+
+Input Size/Type: 500/Backwards
+Bubble: 1.799E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Bubble: 7.317E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Bubble: 0.0184699 seconds
+
+Input Size/Type: 10000/Backwards
+Bubble: 0.0738583 seconds
+
+Input Size/Type: 50000/Backwards
+Bubble: 1.8507919 seconds
+
+Input Size/Type: 100000/Backwards
+Bubble: 7.4067366 seconds
+
+Input Size/Type: 500000/Backwards
+Bubble: 185.2396701 seconds
+
+Input Size/Type: 1000000/Backwards
+Bubble: 741.9908394 seconds
+
+Input Size/Type: 100/Random
+Insertion: 2.3E-6 seconds
+
+Input Size/Type: 500/Random
+Insertion: 1.64E-5 seconds
+
+Input Size/Type: 1000/Random
+Insertion: 6.16E-5 seconds
+
+Input Size/Type: 5000/Random
+Insertion: 0.001214 seconds
+
+Input Size/Type: 10000/Random
+Insertion: 0.0048177 seconds
+
+Input Size/Type: 50000/Random
+Insertion: 0.1170753 seconds
+
+Input Size/Type: 100000/Random
+Insertion: 0.4681758 seconds
+
+Input Size/Type: 500000/Random
+Insertion: 11.9930006 seconds
+
+Input Size/Type: 1000000/Random
+Insertion: 48.3288906 seconds
+
+Input Size/Type: 100/Sorted
+Insertion: 4.0E-7 seconds
+
+Input Size/Type: 500/Sorted
+Insertion: 9.0E-7 seconds
+
+Input Size/Type: 1000/Sorted
+Insertion: 1.6E-6 seconds
+
+Input Size/Type: 5000/Sorted
+Insertion: 7.5E-6 seconds
+
+Input Size/Type: 10000/Sorted
+Insertion: 1.74E-5 seconds
+
+Input Size/Type: 50000/Sorted
+Insertion: 7.39E-5 seconds
+
+Input Size/Type: 100000/Sorted
+Insertion: 1.477E-4 seconds
+
+Input Size/Type: 500000/Sorted
+Insertion: 7.393E-4 seconds
+
+Input Size/Type: 1000000/Sorted
+Insertion: 0.0014971 seconds
+
+Input Size/Type: 100/Backwards
+Insertion: 3.9E-6 seconds
+
+Input Size/Type: 500/Backwards
+Insertion: 5.27E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Insertion: 2.043E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Insertion: 0.0046821 seconds
+
+Input Size/Type: 10000/Backwards
+Insertion: 0.0187186 seconds
+
+Input Size/Type: 50000/Backwards
+Insertion: 0.4662588 seconds
+
+Input Size/Type: 100000/Backwards
+Insertion: 1.8962865 seconds
+
+Input Size/Type: 500000/Backwards
+Insertion: 48.6991441 seconds
+
+Input Size/Type: 1000000/Backwards
+Insertion: 199.7344936 seconds
+
+Input Size/Type: 100/Random
+Selection: 7.8E-6 seconds
+
+Input Size/Type: 500/Random
+Selection: 1.26E-4 seconds
+
+Input Size/Type: 1000/Random
+Selection: 4.593E-4 seconds
+
+Input Size/Type: 5000/Random
+Selection: 0.0104316 seconds
+
+Input Size/Type: 10000/Random
+Selection: 0.041254 seconds
+
+Input Size/Type: 50000/Random
+Selection: 1.0205305 seconds
+
+Input Size/Type: 100000/Random
+Selection: 4.0844409 seconds
+
+Input Size/Type: 500000/Random
+Selection: 101.9412574 seconds
+
+Input Size/Type: 1000000/Random
+Selection: 408.9910957 seconds
+
+Input Size/Type: 100/Sorted
+Selection: 5.6E-6 seconds
+
+Input Size/Type: 500/Sorted
+Selection: 3.613E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Selection: 4.187E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Selection: 0.0102113 seconds
+
+Input Size/Type: 10000/Sorted
+Selection: 0.0408104 seconds
+
+Input Size/Type: 50000/Sorted
+Selection: 1.018161 seconds
+
+Input Size/Type: 100000/Sorted
+Selection: 4.0688865 seconds
+
+Input Size/Type: 500000/Sorted
+Selection: 101.7130094 seconds
+
+Input Size/Type: 1000000/Sorted
+Selection: 407.5437939 seconds
+
+Input Size/Type: 100/Backwards
+Selection: 8.4E-6 seconds
+
+Input Size/Type: 500/Backwards
+Selection: 1.474E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Selection: 5.877E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Selection: 0.0140422 seconds
+
+Input Size/Type: 10000/Backwards
+Selection: 0.0563931 seconds
+
+Input Size/Type: 50000/Backwards
+Selection: 1.3972077 seconds
+
+Input Size/Type: 100000/Backwards
+Selection: 5.5919415 seconds
+
+Input Size/Type: 500000/Backwards
+Selection: 139.5377413 seconds
+
+Input Size/Type: 1000000/Backwards
+Selection: 557.7726346 seconds
+
+Input Size/Type: 100/Random
+Merge: 1.18E-5 seconds
+
+Input Size/Type: 500/Random
+Merge: 4.93E-5 seconds
+
+Input Size/Type: 1000/Random
+Merge: 1.175E-4 seconds
+
+Input Size/Type: 5000/Random
+Merge: 6.023E-4 seconds
+
+Input Size/Type: 10000/Random
+Merge: 0.0012444 seconds
+
+Input Size/Type: 50000/Random
+Merge: 0.0069101 seconds
+
+Input Size/Type: 100000/Random
+Merge: 0.0149053 seconds
+
+Input Size/Type: 500000/Random
+Merge: 0.1265161 seconds
+
+Input Size/Type: 1000000/Random
+Merge: 0.1503856 seconds
+
+Input Size/Type: 5000000/Random
+Merge: 0.7701567 seconds
+
+Input Size/Type: 10000000/Random
+Merge: 1.5919306 seconds
+
+Input Size/Type: 50000000/Random
+Merge: 8.5386162 seconds
+
+Input Size/Type: 100000000/Random
+Merge: 17.7092168 seconds
+
+Input Size/Type: 100/Sorted
+Merge: 1.04E-5 seconds
+
+Input Size/Type: 500/Sorted
+Merge: 3.45E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Merge: 7.78E-5 seconds
+
+Input Size/Type: 5000/Sorted
+Merge: 4.05E-4 seconds
+
+Input Size/Type: 10000/Sorted
+Merge: 8.564E-4 seconds
+
+Input Size/Type: 50000/Sorted
+Merge: 0.0045795 seconds
+
+Input Size/Type: 100000/Sorted
+Merge: 0.0091888 seconds
+
+Input Size/Type: 500000/Sorted
+Merge: 0.1022127 seconds
+
+Input Size/Type: 1000000/Sorted
+Merge: 0.0649604 seconds
+
+Input Size/Type: 5000000/Sorted
+Merge: 0.3714978 seconds
+
+Input Size/Type: 10000000/Sorted
+Merge: 0.7502041 seconds
+
+Input Size/Type: 50000000/Sorted
+Merge: 3.8320377 seconds
+
+Input Size/Type: 100000000/Sorted
+Merge: 7.9292599 seconds
+
+Input Size/Type: 100/Backwards
+Merge: 1.19E-5 seconds
+
+Input Size/Type: 500/Backwards
+Merge: 3.81E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Merge: 8.11E-5 seconds
+
+Input Size/Type: 5000/Backwards
+Merge: 4.1E-4 seconds
+
+Input Size/Type: 10000/Backwards
+Merge: 8.863E-4 seconds
+
+Input Size/Type: 50000/Backwards
+Merge: 0.0036534 seconds
+
+Input Size/Type: 100000/Backwards
+Merge: 0.0054875 seconds
+
+Input Size/Type: 500000/Backwards
+Merge: 0.1029696 seconds
+
+Input Size/Type: 1000000/Backwards
+Merge: 0.0675985 seconds
+
+Input Size/Type: 5000000/Backwards
+Merge: 0.3828826 seconds
+
+Input Size/Type: 10000000/Backwards
+Merge: 0.7763036 seconds
+
+Input Size/Type: 50000000/Backwards
+Merge: 4.0197735 seconds
+
+Input Size/Type: 100000000/Backwards
+Merge: 8.2687009 seconds
+
+Input Size/Type: 100/Random
+Quick: 4.2E-6 seconds
+
+Input Size/Type: 500/Random
+Quick: 2.16E-5 seconds
+
+Input Size/Type: 1000/Random
+Quick: 6.47E-5 seconds
+
+Input Size/Type: 5000/Random
+Quick: 2.891E-4 seconds
+
+Input Size/Type: 10000/Random
+Quick: 5.998E-4 seconds
+
+Input Size/Type: 50000/Random
+Quick: 0.003324 seconds
+
+Input Size/Type: 100000/Random
+Quick: 0.0072297 seconds
+
+Input Size/Type: 500000/Random
+Quick: 0.0388032 seconds
+
+Input Size/Type: 1000000/Random
+Quick: 0.084707 seconds
+
+Input Size/Type: 5000000/Random
+Quick: 0.4799363 seconds
+
+Input Size/Type: 10000000/Random
+Quick: 0.9644473 seconds
+
+Input Size/Type: 50000000/Random
+Quick: 5.2951236 seconds
+
+Input Size/Type: 100000000/Random
+Quick: 10.9986635 seconds
+
+Input Size/Type: 100/Sorted
+Quick: 8.1E-6 seconds
+
+Input Size/Type: 500/Sorted
+Quick: 1.559E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Quick: 6.151E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Quick: 0.0149536 seconds
+
+Input Size/Type: 10000/Sorted
+Quick: 0.0595628 seconds
+
+Input Size/Type: 50000/Sorted
+Quick: 1.4870423 seconds
+
+Input Size/Type: 100000/Sorted
+Quick: 5.9449382 seconds
+
+Input Size/Type: 500000/Sorted
+Quick: 148.4703915 seconds
+
+Input Size/Type: 1000000/Sorted
+Quick: 594.2037995 seconds
+
+Input Size/Type: 100/Backwards
+Quick: 7.1E-6 seconds
+
+Input Size/Type: 500/Backwards
+Quick: 1.3E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Quick: 5.079E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Quick: 0.0121912 seconds
+
+Input Size/Type: 10000/Backwards
+Quick: 0.0484649 seconds
+
+Input Size/Type: 50000/Backwards
+Quick: 1.2083289 seconds
+
+Input Size/Type: 100000/Backwards
+Quick: 4.8275594 seconds
+
+Input Size/Type: 500000/Backwards
+Quick: 120.6683175 seconds
+
+Input Size/Type: 1000000/Backwards
+Quick: 483.3558133 seconds
+
+Input Size/Type: 100/Random
+Bubble: 1.11E-5 seconds
+
+Input Size/Type: 500/Random
+Bubble: 2.403E-4 seconds
+
+Input Size/Type: 1000/Random
+Bubble: 8.551E-4 seconds
+
+Input Size/Type: 5000/Random
+Bubble: 0.0225576 seconds
+
+Input Size/Type: 10000/Random
+Bubble: 0.0968573 seconds
+
+Input Size/Type: 50000/Random
+Bubble: 2.5513268 seconds
+
+Input Size/Type: 100000/Random
+Bubble: 10.2758907 seconds
+
+Input Size/Type: 500000/Random
+Bubble: 256.4566938 seconds
+
+Input Size/Type: 1000000/Random
+Bubble: 1028.882527 seconds
+
+Input Size/Type: 100/Sorted
+Bubble: 4.5E-6 seconds
+
+Input Size/Type: 500/Sorted
+Bubble: 6.31E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Bubble: 2.411E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Bubble: 0.0056273 seconds
+
+Input Size/Type: 10000/Sorted
+Bubble: 0.0224586 seconds
+
+Input Size/Type: 50000/Sorted
+Bubble: 0.5598039 seconds
+
+Input Size/Type: 100000/Sorted
+Bubble: 2.2341907 seconds
+
+Input Size/Type: 500000/Sorted
+Bubble: 55.7950704 seconds
+
+Input Size/Type: 1000000/Sorted
+Bubble: 223.8479808 seconds
+
+Input Size/Type: 100/Backwards
+Bubble: 7.4E-6 seconds
+
+Input Size/Type: 500/Backwards
+Bubble: 1.8E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Bubble: 7.321E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Bubble: 0.0184182 seconds
+
+Input Size/Type: 10000/Backwards
+Bubble: 0.0740105 seconds
+
+Input Size/Type: 50000/Backwards
+Bubble: 1.8516249 seconds
+
+Input Size/Type: 100000/Backwards
+Bubble: 7.4023465 seconds
+
+Input Size/Type: 500000/Backwards
+Bubble: 185.2095236 seconds
+
+Input Size/Type: 1000000/Backwards
+Bubble: 741.6359772 seconds
+
+Input Size/Type: 100/Random
+Insertion: 2.3E-6 seconds
+
+Input Size/Type: 500/Random
+Insertion: 1.66E-5 seconds
+
+Input Size/Type: 1000/Random
+Insertion: 6.18E-5 seconds
+
+Input Size/Type: 5000/Random
+Insertion: 0.0012066 seconds
+
+Input Size/Type: 10000/Random
+Insertion: 0.0047024 seconds
+
+Input Size/Type: 50000/Random
+Insertion: 0.1176447 seconds
+
+Input Size/Type: 100000/Random
+Insertion: 0.4680954 seconds
+
+Input Size/Type: 500000/Random
+Insertion: 12.014893 seconds
+
+Input Size/Type: 1000000/Random
+Insertion: 48.5276425 seconds
+
+Input Size/Type: 100/Sorted
+Insertion: 5.0E-7 seconds
+
+Input Size/Type: 500/Sorted
+Insertion: 9.0E-7 seconds
+
+Input Size/Type: 1000/Sorted
+Insertion: 1.6E-6 seconds
+
+Input Size/Type: 5000/Sorted
+Insertion: 7.5E-6 seconds
+
+Input Size/Type: 10000/Sorted
+Insertion: 1.49E-5 seconds
+
+Input Size/Type: 50000/Sorted
+Insertion: 7.41E-5 seconds
+
+Input Size/Type: 100000/Sorted
+Insertion: 1.478E-4 seconds
+
+Input Size/Type: 500000/Sorted
+Insertion: 7.432E-4 seconds
+
+Input Size/Type: 1000000/Sorted
+Insertion: 0.0014881 seconds
+
+Input Size/Type: 100/Backwards
+Insertion: 3.7E-6 seconds
+
+Input Size/Type: 500/Backwards
+Insertion: 5.28E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Insertion: 2.004E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Insertion: 0.004681 seconds
+
+Input Size/Type: 10000/Backwards
+Insertion: 0.0187005 seconds
+
+Input Size/Type: 50000/Backwards
+Insertion: 0.4658923 seconds
+
+Input Size/Type: 100000/Backwards
+Insertion: 1.9055534 seconds
+
+Input Size/Type: 500000/Backwards
+Insertion: 48.364484 seconds
+
+Input Size/Type: 1000000/Backwards
+Insertion: 195.1342562 seconds
+
+Input Size/Type: 100/Random
+Selection: 7.7E-6 seconds
+
+Input Size/Type: 500/Random
+Selection: 1.21E-4 seconds
+
+Input Size/Type: 1000/Random
+Selection: 4.635E-4 seconds
+
+Input Size/Type: 5000/Random
+Selection: 0.0104726 seconds
+
+Input Size/Type: 10000/Random
+Selection: 0.0413683 seconds
+
+Input Size/Type: 50000/Random
+Selection: 1.0221785 seconds
+
+Input Size/Type: 100000/Random
+Selection: 4.0760122 seconds
+
+Input Size/Type: 500000/Random
+Selection: 101.7713795 seconds
+
+Input Size/Type: 1000000/Random
+Selection: 407.7963182 seconds
+
+Input Size/Type: 100/Sorted
+Selection: 5.6E-6 seconds
+
+Input Size/Type: 500/Sorted
+Selection: 1.063E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Selection: 4.234E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Selection: 0.0102643 seconds
+
+Input Size/Type: 10000/Sorted
+Selection: 0.0408817 seconds
+
+Input Size/Type: 50000/Sorted
+Selection: 1.0172362 seconds
+
+Input Size/Type: 100000/Sorted
+Selection: 4.0706834 seconds
+
+Input Size/Type: 500000/Sorted
+Selection: 101.7204263 seconds
+
+Input Size/Type: 1000000/Sorted
+Selection: 408.0574633 seconds
+
+Input Size/Type: 100/Backwards
+Selection: 8.4E-6 seconds
+
+Input Size/Type: 500/Backwards
+Selection: 1.468E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Selection: 5.837E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Selection: 0.014083 seconds
+
+Input Size/Type: 10000/Backwards
+Selection: 0.0559979 seconds
+
+Input Size/Type: 50000/Backwards
+Selection: 1.3972129 seconds
+
+Input Size/Type: 100000/Backwards
+Selection: 5.5947404 seconds
+
+Input Size/Type: 500000/Backwards
+Selection: 139.4586103 seconds
+
+Input Size/Type: 1000000/Backwards
+Selection: 558.3884129 seconds
+
+Input Size/Type: 100/Random
+Merge: 1.18E-5 seconds
+
+Input Size/Type: 500/Random
+Merge: 5.13E-5 seconds
+
+Input Size/Type: 1000/Random
+Merge: 1.153E-4 seconds
+
+Input Size/Type: 5000/Random
+Merge: 5.817E-4 seconds
+
+Input Size/Type: 10000/Random
+Merge: 0.0012381 seconds
+
+Input Size/Type: 50000/Random
+Merge: 0.0069091 seconds
+
+Input Size/Type: 100000/Random
+Merge: 0.0148794 seconds
+
+Input Size/Type: 500000/Random
+Merge: 0.1283028 seconds
+
+Input Size/Type: 1000000/Random
+Merge: 0.1491483 seconds
+
+Input Size/Type: 5000000/Random
+Merge: 0.772993 seconds
+
+Input Size/Type: 10000000/Random
+Merge: 1.6006993 seconds
+
+Input Size/Type: 50000000/Random
+Merge: 8.604434 seconds
+
+Input Size/Type: 100000000/Random
+Merge: 17.6266674 seconds
+
+Input Size/Type: 100/Sorted
+Merge: 1.11E-5 seconds
+
+Input Size/Type: 500/Sorted
+Merge: 3.52E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Merge: 7.8E-5 seconds
+
+Input Size/Type: 5000/Sorted
+Merge: 4.147E-4 seconds
+
+Input Size/Type: 10000/Sorted
+Merge: 8.593E-4 seconds
+
+Input Size/Type: 50000/Sorted
+Merge: 0.0045098 seconds
+
+Input Size/Type: 100000/Sorted
+Merge: 0.00908 seconds
+
+Input Size/Type: 500000/Sorted
+Merge: 0.102825 seconds
+
+Input Size/Type: 1000000/Sorted
+Merge: 0.0858093 seconds
+
+Input Size/Type: 5000000/Sorted
+Merge: 0.3634788 seconds
+
+Input Size/Type: 10000000/Sorted
+Merge: 0.7577827 seconds
+
+Input Size/Type: 50000000/Sorted
+Merge: 3.8092341 seconds
+
+Input Size/Type: 100000000/Sorted
+Merge: 7.881806 seconds
+
+Input Size/Type: 100/Backwards
+Merge: 9.4E-6 seconds
+
+Input Size/Type: 500/Backwards
+Merge: 3.67E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Merge: 8.05E-5 seconds
+
+Input Size/Type: 5000/Backwards
+Merge: 4.289E-4 seconds
+
+Input Size/Type: 10000/Backwards
+Merge: 8.764E-4 seconds
+
+Input Size/Type: 50000/Backwards
+Merge: 0.0036405 seconds
+
+Input Size/Type: 100000/Backwards
+Merge: 0.0054493 seconds
+
+Input Size/Type: 500000/Backwards
+Merge: 0.1039123 seconds
+
+Input Size/Type: 1000000/Backwards
+Merge: 0.0678127 seconds
+
+Input Size/Type: 5000000/Backwards
+Merge: 0.3815295 seconds
+
+Input Size/Type: 10000000/Backwards
+Merge: 0.7903695 seconds
+
+Input Size/Type: 50000000/Backwards
+Merge: 4.0620018 seconds
+
+Input Size/Type: 100000000/Backwards
+Merge: 8.1946188 seconds
+
+Input Size/Type: 100/Random
+Quick: 4.2E-6 seconds
+
+Input Size/Type: 500/Random
+Quick: 2.17E-5 seconds
+
+Input Size/Type: 1000/Random
+Quick: 5.29E-5 seconds
+
+Input Size/Type: 5000/Random
+Quick: 2.758E-4 seconds
+
+Input Size/Type: 10000/Random
+Quick: 5.846E-4 seconds
+
+Input Size/Type: 50000/Random
+Quick: 0.0033764 seconds
+
+Input Size/Type: 100000/Random
+Quick: 0.0070294 seconds
+
+Input Size/Type: 500000/Random
+Quick: 0.039198 seconds
+
+Input Size/Type: 1000000/Random
+Quick: 0.0818899 seconds
+
+Input Size/Type: 5000000/Random
+Quick: 0.4713482 seconds
+
+Input Size/Type: 10000000/Random
+Quick: 0.9815296 seconds
+
+Input Size/Type: 50000000/Random
+Quick: 5.2887277 seconds
+
+Input Size/Type: 100000000/Random
+Quick: 11.0748066 seconds
+
+Input Size/Type: 100/Sorted
+Quick: 8.1E-6 seconds
+
+Input Size/Type: 500/Sorted
+Quick: 1.558E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Quick: 6.109E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Quick: 0.0148739 seconds
+
+Input Size/Type: 10000/Sorted
+Quick: 0.0595538 seconds
+
+Input Size/Type: 50000/Sorted
+Quick: 1.482728 seconds
+
+Input Size/Type: 100000/Sorted
+Quick: 5.9353911 seconds
+
+Input Size/Type: 500000/Sorted
+Quick: 148.3439173 seconds
+
+Input Size/Type: 1000000/Sorted
+Quick: 594.936655 seconds
+
+Input Size/Type: 100/Backwards
+Quick: 7.3E-6 seconds
+
+Input Size/Type: 500/Backwards
+Quick: 1.418E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Quick: 5.085E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Quick: 0.012126 seconds
+
+Input Size/Type: 10000/Backwards
+Quick: 0.0492285 seconds
+
+Input Size/Type: 50000/Backwards
+Quick: 1.2111797 seconds
+
+Input Size/Type: 100000/Backwards
+Quick: 4.8348893 seconds
+
+Input Size/Type: 500000/Backwards
+Quick: 120.8614909 seconds
+
+Input Size/Type: 1000000/Backwards
+Quick: 484.8755763 seconds
+
+Input Size/Type: 100/Random
+Bubble: 1.23E-5 seconds
+
+Input Size/Type: 500/Random
+Bubble: 2.311E-4 seconds
+
+Input Size/Type: 1000/Random
+Bubble: 8.846E-4 seconds
+
+Input Size/Type: 5000/Random
+Bubble: 0.0235383 seconds
+
+Input Size/Type: 10000/Random
+Bubble: 0.0983117 seconds
+
+Input Size/Type: 50000/Random
+Bubble: 2.5446495 seconds
+
+Input Size/Type: 100000/Random
+Bubble: 10.2882848 seconds
+
+Input Size/Type: 500000/Random
+Bubble: 256.7013654 seconds
+
+Input Size/Type: 1000000/Random
+Bubble: 1031.4802409 seconds
+
+Input Size/Type: 100/Sorted
+Bubble: 4.3E-6 seconds
+
+Input Size/Type: 500/Sorted
+Bubble: 6.31E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Bubble: 2.411E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Bubble: 0.0056385 seconds
+
+Input Size/Type: 10000/Sorted
+Bubble: 0.0225998 seconds
+
+Input Size/Type: 50000/Sorted
+Bubble: 0.5590404 seconds
+
+Input Size/Type: 100000/Sorted
+Bubble: 2.2333244 seconds
+
+Input Size/Type: 500000/Sorted
+Bubble: 55.8047596 seconds
+
+Input Size/Type: 1000000/Sorted
+Bubble: 223.8755926 seconds
+
+Input Size/Type: 100/Backwards
+Bubble: 7.4E-6 seconds
+
+Input Size/Type: 500/Backwards
+Bubble: 1.8E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Bubble: 7.316E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Bubble: 0.0184205 seconds
+
+Input Size/Type: 10000/Backwards
+Bubble: 0.0740498 seconds
+
+Input Size/Type: 50000/Backwards
+Bubble: 1.8502878 seconds
+
+Input Size/Type: 100000/Backwards
+Bubble: 7.4031471 seconds
+
+Input Size/Type: 500000/Backwards
+Bubble: 185.2118342 seconds
+
+Input Size/Type: 1000000/Backwards
+Bubble: 741.6784192 seconds
+
+Input Size/Type: 100/Random
+Insertion: 2.2E-6 seconds
+
+Input Size/Type: 500/Random
+Insertion: 1.77E-5 seconds
+
+Input Size/Type: 1000/Random
+Insertion: 6.32E-5 seconds
+
+Input Size/Type: 5000/Random
+Insertion: 0.0012165 seconds
+
+Input Size/Type: 10000/Random
+Insertion: 0.0048232 seconds
+
+Input Size/Type: 50000/Random
+Insertion: 0.1166892 seconds
+
+Input Size/Type: 100000/Random
+Insertion: 0.4688888 seconds
+
+Input Size/Type: 500000/Random
+Insertion: 12.0279996 seconds
+
+Input Size/Type: 1000000/Random
+Insertion: 48.2457318 seconds
+
+Input Size/Type: 100/Sorted
+Insertion: 4.0E-7 seconds
+
+Input Size/Type: 500/Sorted
+Insertion: 9.0E-7 seconds
+
+Input Size/Type: 1000/Sorted
+Insertion: 1.7E-6 seconds
+
+Input Size/Type: 5000/Sorted
+Insertion: 7.5E-6 seconds
+
+Input Size/Type: 10000/Sorted
+Insertion: 1.74E-5 seconds
+
+Input Size/Type: 50000/Sorted
+Insertion: 7.39E-5 seconds
+
+Input Size/Type: 100000/Sorted
+Insertion: 1.478E-4 seconds
+
+Input Size/Type: 500000/Sorted
+Insertion: 7.443E-4 seconds
+
+Input Size/Type: 1000000/Sorted
+Insertion: 0.0015 seconds
+
+Input Size/Type: 100/Backwards
+Insertion: 3.8E-6 seconds
+
+Input Size/Type: 500/Backwards
+Insertion: 5.26E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Insertion: 2.003E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Insertion: 0.0046792 seconds
+
+Input Size/Type: 10000/Backwards
+Insertion: 0.0187426 seconds
+
+Input Size/Type: 50000/Backwards
+Insertion: 0.4663998 seconds
+
+Input Size/Type: 100000/Backwards
+Insertion: 1.8973469 seconds
+
+Input Size/Type: 500000/Backwards
+Insertion: 48.3556495 seconds
+
+Input Size/Type: 1000000/Backwards
+Insertion: 194.8486117 seconds
+
+Input Size/Type: 100/Random
+Selection: 7.7E-6 seconds
+
+Input Size/Type: 500/Random
+Selection: 1.219E-4 seconds
+
+Input Size/Type: 1000/Random
+Selection: 4.532E-4 seconds
+
+Input Size/Type: 5000/Random
+Selection: 0.0104402 seconds
+
+Input Size/Type: 10000/Random
+Selection: 0.0414294 seconds
+
+Input Size/Type: 50000/Random
+Selection: 1.0201097 seconds
+
+Input Size/Type: 100000/Random
+Selection: 4.073958 seconds
+
+Input Size/Type: 500000/Random
+Selection: 101.7249787 seconds
+
+Input Size/Type: 1000000/Random
+Selection: 407.4212618 seconds
+
+Input Size/Type: 100/Sorted
+Selection: 5.7E-6 seconds
+
+Input Size/Type: 500/Sorted
+Selection: 1.063E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Selection: 4.234E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Selection: 0.0102102 seconds
+
+Input Size/Type: 10000/Sorted
+Selection: 0.0412346 seconds
+
+Input Size/Type: 50000/Sorted
+Selection: 1.0172976 seconds
+
+Input Size/Type: 100000/Sorted
+Selection: 4.0673903 seconds
+
+Input Size/Type: 500000/Sorted
+Selection: 101.7012819 seconds
+
+Input Size/Type: 1000000/Sorted
+Selection: 407.4338597 seconds
+
+Input Size/Type: 100/Backwards
+Selection: 8.6E-6 seconds
+
+Input Size/Type: 500/Backwards
+Selection: 1.466E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Selection: 5.871E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Selection: 0.0292739 seconds
+
+Input Size/Type: 10000/Backwards
+Selection: 0.0563193 seconds
+
+Input Size/Type: 50000/Backwards
+Selection: 1.3995935 seconds
+
+Input Size/Type: 100000/Backwards
+Selection: 5.5783472 seconds
+
+Input Size/Type: 500000/Backwards
+Selection: 139.4896126 seconds
+
+Input Size/Type: 1000000/Backwards
+Selection: 558.0316234 seconds
+
+Input Size/Type: 100/Random
+Merge: 1.29E-5 seconds
+
+Input Size/Type: 500/Random
+Merge: 4.8E-5 seconds
+
+Input Size/Type: 1000/Random
+Merge: 1.144E-4 seconds
+
+Input Size/Type: 5000/Random
+Merge: 6.017E-4 seconds
+
+Input Size/Type: 10000/Random
+Merge: 0.0012319 seconds
+
+Input Size/Type: 50000/Random
+Merge: 0.0071673 seconds
+
+Input Size/Type: 100000/Random
+Merge: 0.0147231 seconds
+
+Input Size/Type: 500000/Random
+Merge: 0.1286228 seconds
+
+Input Size/Type: 1000000/Random
+Merge: 0.1485457 seconds
+
+Input Size/Type: 5000000/Random
+Merge: 0.7695653 seconds
+
+Input Size/Type: 10000000/Random
+Merge: 1.5888634 seconds
+
+Input Size/Type: 50000000/Random
+Merge: 8.495976 seconds
+
+Input Size/Type: 100000000/Random
+Merge: 17.6366286 seconds
+
+Input Size/Type: 100/Sorted
+Merge: 1.07E-5 seconds
+
+Input Size/Type: 500/Sorted
+Merge: 3.61E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Merge: 8.04E-5 seconds
+
+Input Size/Type: 5000/Sorted
+Merge: 4.013E-4 seconds
+
+Input Size/Type: 10000/Sorted
+Merge: 8.503E-4 seconds
+
+Input Size/Type: 50000/Sorted
+Merge: 0.004478 seconds
+
+Input Size/Type: 100000/Sorted
+Merge: 0.0092517 seconds
+
+Input Size/Type: 500000/Sorted
+Merge: 0.0974082 seconds
+
+Input Size/Type: 1000000/Sorted
+Merge: 0.0644359 seconds
+
+Input Size/Type: 5000000/Sorted
+Merge: 0.3658007 seconds
+
+Input Size/Type: 10000000/Sorted
+Merge: 0.7394187 seconds
+
+Input Size/Type: 50000000/Sorted
+Merge: 3.7760652 seconds
+
+Input Size/Type: 100000000/Sorted
+Merge: 7.8319586 seconds
+
+Input Size/Type: 100/Backwards
+Merge: 1.05E-5 seconds
+
+Input Size/Type: 500/Backwards
+Merge: 3.68E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Merge: 8.13E-5 seconds
+
+Input Size/Type: 5000/Backwards
+Merge: 4.287E-4 seconds
+
+Input Size/Type: 10000/Backwards
+Merge: 8.886E-4 seconds
+
+Input Size/Type: 50000/Backwards
+Merge: 0.0048198 seconds
+
+Input Size/Type: 100000/Backwards
+Merge: 0.006623 seconds
+
+Input Size/Type: 500000/Backwards
+Merge: 0.1008289 seconds
+
+Input Size/Type: 1000000/Backwards
+Merge: 0.0668482 seconds
+
+Input Size/Type: 5000000/Backwards
+Merge: 0.3772202 seconds
+
+Input Size/Type: 10000000/Backwards
+Merge: 0.7660815 seconds
+
+Input Size/Type: 50000000/Backwards
+Merge: 3.9607419 seconds
+
+Input Size/Type: 100000000/Backwards
+Merge: 8.1725831 seconds
+
+Input Size/Type: 100/Random
+Quick: 4.2E-6 seconds
+
+Input Size/Type: 500/Random
+Quick: 2.13E-5 seconds
+
+Input Size/Type: 1000/Random
+Quick: 5.24E-5 seconds
+
+Input Size/Type: 5000/Random
+Quick: 2.745E-4 seconds
+
+Input Size/Type: 10000/Random
+Quick: 5.831E-4 seconds
+
+Input Size/Type: 50000/Random
+Quick: 0.0033695 seconds
+
+Input Size/Type: 100000/Random
+Quick: 0.0070507 seconds
+
+Input Size/Type: 500000/Random
+Quick: 0.0394103 seconds
+
+Input Size/Type: 1000000/Random
+Quick: 0.0838689 seconds
+
+Input Size/Type: 5000000/Random
+Quick: 0.4629978 seconds
+
+Input Size/Type: 10000000/Random
+Quick: 0.9606098 seconds
+
+Input Size/Type: 50000000/Random
+Quick: 5.3026298 seconds
+
+Input Size/Type: 100000000/Random
+Quick: 10.9968667 seconds
+
+Input Size/Type: 100/Sorted
+Quick: 8.0E-6 seconds
+
+Input Size/Type: 500/Sorted
+Quick: 1.561E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Quick: 6.152E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Quick: 0.0149499 seconds
+
+Input Size/Type: 10000/Sorted
+Quick: 0.0596645 seconds
+
+Input Size/Type: 50000/Sorted
+Quick: 1.4868831 seconds
+
+Input Size/Type: 100000/Sorted
+Quick: 5.936891 seconds
+
+Input Size/Type: 500000/Sorted
+Quick: 148.4670483 seconds
+
+Input Size/Type: 1000000/Sorted
+Quick: 594.3367344 seconds
+
+Input Size/Type: 100/Backwards
+Quick: 7.5E-6 seconds
+
+Input Size/Type: 500/Backwards
+Quick: 1.289E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Quick: 5.095E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Quick: 0.0121443 seconds
+
+Input Size/Type: 10000/Backwards
+Quick: 0.0486025 seconds
+
+Input Size/Type: 50000/Backwards
+Quick: 1.2087358 seconds
+
+Input Size/Type: 100000/Backwards
+Quick: 4.8336135 seconds
+
+Input Size/Type: 500000/Backwards
+Quick: 120.7399817 seconds
+
+Input Size/Type: 1000000/Backwards
+Quick: 482.7545783 seconds
+
+Input Size/Type: 100/Random
+Bubble: 1.24E-5 seconds
+
+Input Size/Type: 500/Random
+Bubble: 2.167E-4 seconds
+
+Input Size/Type: 1000/Random
+Bubble: 8.741E-4 seconds
+
+Input Size/Type: 5000/Random
+Bubble: 0.0237314 seconds
+
+Input Size/Type: 10000/Random
+Bubble: 0.0962844 seconds
+
+Input Size/Type: 50000/Random
+Bubble: 2.5441399 seconds
+
+Input Size/Type: 100000/Random
+Bubble: 10.242913 seconds
+
+Input Size/Type: 500000/Random
+Bubble: 256.9271619 seconds
+
+Input Size/Type: 1000000/Random
+Bubble: 1027.8463847 seconds
+
+Input Size/Type: 100/Sorted
+Bubble: 4.2E-6 seconds
+
+Input Size/Type: 500/Sorted
+Bubble: 6.31E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Bubble: 2.45E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Bubble: 0.0056371 seconds
+
+Input Size/Type: 10000/Sorted
+Bubble: 0.0227413 seconds
+
+Input Size/Type: 50000/Sorted
+Bubble: 0.5596121 seconds
+
+Input Size/Type: 100000/Sorted
+Bubble: 2.2320696 seconds
+
+Input Size/Type: 500000/Sorted
+Bubble: 55.7941579 seconds
+
+Input Size/Type: 1000000/Sorted
+Bubble: 223.5585628 seconds
+
+Input Size/Type: 100/Backwards
+Bubble: 7.3E-6 seconds
+
+Input Size/Type: 500/Backwards
+Bubble: 1.841E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Bubble: 7.332E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Bubble: 0.0183954 seconds
+
+Input Size/Type: 10000/Backwards
+Bubble: 0.0739338 seconds
+
+Input Size/Type: 50000/Backwards
+Bubble: 1.8511159 seconds
+
+Input Size/Type: 100000/Backwards
+Bubble: 7.405273 seconds
+
+Input Size/Type: 500000/Backwards
+Bubble: 185.2001003 seconds
+
+Input Size/Type: 1000000/Backwards
+Bubble: 741.382239 seconds
+
+Input Size/Type: 100/Random
+Insertion: 2.0E-6 seconds
+
+Input Size/Type: 500/Random
+Insertion: 1.69E-5 seconds
+
+Input Size/Type: 1000/Random
+Insertion: 5.83E-5 seconds
+
+Input Size/Type: 5000/Random
+Insertion: 0.0011796 seconds
+
+Input Size/Type: 10000/Random
+Insertion: 0.0046481 seconds
+
+Input Size/Type: 50000/Random
+Insertion: 0.1160657 seconds
+
+Input Size/Type: 100000/Random
+Insertion: 0.4671043 seconds
+
+Input Size/Type: 500000/Random
+Insertion: 12.0092266 seconds
+
+Input Size/Type: 1000000/Random
+Insertion: 48.3191057 seconds
+
+Input Size/Type: 100/Sorted
+Insertion: 6.0E-7 seconds
+
+Input Size/Type: 500/Sorted
+Insertion: 1.0E-6 seconds
+
+Input Size/Type: 1000/Sorted
+Insertion: 1.7E-6 seconds
+
+Input Size/Type: 5000/Sorted
+Insertion: 7.6E-6 seconds
+
+Input Size/Type: 10000/Sorted
+Insertion: 1.49E-5 seconds
+
+Input Size/Type: 50000/Sorted
+Insertion: 7.47E-5 seconds
+
+Input Size/Type: 100000/Sorted
+Insertion: 1.489E-4 seconds
+
+Input Size/Type: 500000/Sorted
+Insertion: 7.498E-4 seconds
+
+Input Size/Type: 1000000/Sorted
+Insertion: 0.0015486 seconds
+
+Input Size/Type: 100/Backwards
+Insertion: 3.8E-6 seconds
+
+Input Size/Type: 500/Backwards
+Insertion: 5.27E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Insertion: 2.043E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Insertion: 0.0046874 seconds
+
+Input Size/Type: 10000/Backwards
+Insertion: 0.0187989 seconds
+
+Input Size/Type: 50000/Backwards
+Insertion: 0.4661059 seconds
+
+Input Size/Type: 100000/Backwards
+Insertion: 1.8970152 seconds
+
+Input Size/Type: 500000/Backwards
+Insertion: 48.3623797 seconds
+
+Input Size/Type: 1000000/Backwards
+Insertion: 194.5114673 seconds
+
+Input Size/Type: 100/Random
+Selection: 7.7E-6 seconds
+
+Input Size/Type: 500/Random
+Selection: 1.26E-4 seconds
+
+Input Size/Type: 1000/Random
+Selection: 4.969E-4 seconds
+
+Input Size/Type: 5000/Random
+Selection: 0.0104292 seconds
+
+Input Size/Type: 10000/Random
+Selection: 0.041288 seconds
+
+Input Size/Type: 50000/Random
+Selection: 1.023194 seconds
+
+Input Size/Type: 100000/Random
+Selection: 4.0760502 seconds
+
+Input Size/Type: 500000/Random
+Selection: 101.7286627 seconds
+
+Input Size/Type: 1000000/Random
+Selection: 407.0373473 seconds
+
+Input Size/Type: 100/Sorted
+Selection: 5.7E-6 seconds
+
+Input Size/Type: 500/Sorted
+Selection: 1.063E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Selection: 4.229E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Selection: 0.0102085 seconds
+
+Input Size/Type: 10000/Sorted
+Selection: 0.0408083 seconds
+
+Input Size/Type: 50000/Sorted
+Selection: 1.0170194 seconds
+
+Input Size/Type: 100000/Sorted
+Selection: 4.0691167 seconds
+
+Input Size/Type: 500000/Sorted
+Selection: 101.7069095 seconds
+
+Input Size/Type: 1000000/Sorted
+Selection: 406.9928889 seconds
+
+Input Size/Type: 100/Backwards
+Selection: 8.3E-6 seconds
+
+Input Size/Type: 500/Backwards
+Selection: 1.468E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Selection: 5.715E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Selection: 0.0140338 seconds
+
+Input Size/Type: 10000/Backwards
+Selection: 0.0559813 seconds
+
+Input Size/Type: 50000/Backwards
+Selection: 1.3961387 seconds
+
+Input Size/Type: 100000/Backwards
+Selection: 5.5886948 seconds
+
+Input Size/Type: 500000/Backwards
+Selection: 139.3857318 seconds
+
+Input Size/Type: 1000000/Backwards
+Selection: 557.3241299 seconds
+
+Input Size/Type: 100/Random
+Merge: 1.22E-5 seconds
+
+Input Size/Type: 500/Random
+Merge: 4.82E-5 seconds
+
+Input Size/Type: 1000/Random
+Merge: 1.059E-4 seconds
+
+Input Size/Type: 5000/Random
+Merge: 6.037E-4 seconds
+
+Input Size/Type: 10000/Random
+Merge: 0.0012328 seconds
+
+Input Size/Type: 50000/Random
+Merge: 0.0069513 seconds
+
+Input Size/Type: 100000/Random
+Merge: 0.0147116 seconds
+
+Input Size/Type: 500000/Random
+Merge: 0.1244746 seconds
+
+Input Size/Type: 1000000/Random
+Merge: 0.1480528 seconds
+
+Input Size/Type: 5000000/Random
+Merge: 0.7669983 seconds
+
+Input Size/Type: 10000000/Random
+Merge: 1.5841857 seconds
+
+Input Size/Type: 50000000/Random
+Merge: 8.4887714 seconds
+
+Input Size/Type: 100000000/Random
+Merge: 17.5788311 seconds
+
+Input Size/Type: 100/Sorted
+Merge: 1.05E-5 seconds
+
+Input Size/Type: 500/Sorted
+Merge: 3.79E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Merge: 8.08E-5 seconds
+
+Input Size/Type: 5000/Sorted
+Merge: 4.195E-4 seconds
+
+Input Size/Type: 10000/Sorted
+Merge: 8.847E-4 seconds
+
+Input Size/Type: 50000/Sorted
+Merge: 0.0046962 seconds
+
+Input Size/Type: 100000/Sorted
+Merge: 0.0093952 seconds
+
+Input Size/Type: 500000/Sorted
+Merge: 0.0966342 seconds
+
+Input Size/Type: 1000000/Sorted
+Merge: 0.0641827 seconds
+
+Input Size/Type: 5000000/Sorted
+Merge: 0.3649065 seconds
+
+Input Size/Type: 10000000/Sorted
+Merge: 0.7453398 seconds
+
+Input Size/Type: 50000000/Sorted
+Merge: 3.7927197 seconds
+
+Input Size/Type: 100000000/Sorted
+Merge: 7.7833433 seconds
+
+Input Size/Type: 100/Backwards
+Merge: 9.5E-6 seconds
+
+Input Size/Type: 500/Backwards
+Merge: 3.49E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Merge: 8.19E-5 seconds
+
+Input Size/Type: 5000/Backwards
+Merge: 4.365E-4 seconds
+
+Input Size/Type: 10000/Backwards
+Merge: 8.852E-4 seconds
+
+Input Size/Type: 50000/Backwards
+Merge: 0.0036016 seconds
+
+Input Size/Type: 100000/Backwards
+Merge: 0.0054364 seconds
+
+Input Size/Type: 500000/Backwards
+Merge: 0.096304 seconds
+
+Input Size/Type: 1000000/Backwards
+Merge: 0.0665214 seconds
+
+Input Size/Type: 5000000/Backwards
+Merge: 0.3761275 seconds
+
+Input Size/Type: 10000000/Backwards
+Merge: 0.7879555 seconds
+
+Input Size/Type: 50000000/Backwards
+Merge: 4.0040636 seconds
+
+Input Size/Type: 100000000/Backwards
+Merge: 8.0825915 seconds
+
+Input Size/Type: 100/Random
+Quick: 4.2E-6 seconds
+
+Input Size/Type: 500/Random
+Quick: 2.19E-5 seconds
+
+Input Size/Type: 1000/Random
+Quick: 5.79E-5 seconds
+
+Input Size/Type: 5000/Random
+Quick: 2.842E-4 seconds
+
+Input Size/Type: 10000/Random
+Quick: 5.797E-4 seconds
+
+Input Size/Type: 50000/Random
+Quick: 0.0033629 seconds
+
+Input Size/Type: 100000/Random
+Quick: 0.0069769 seconds
+
+Input Size/Type: 500000/Random
+Quick: 0.0392786 seconds
+
+Input Size/Type: 1000000/Random
+Quick: 0.0837969 seconds
+
+Input Size/Type: 5000000/Random
+Quick: 0.4657664 seconds
+
+Input Size/Type: 10000000/Random
+Quick: 0.989675 seconds
+
+Input Size/Type: 50000000/Random
+Quick: 5.2823005 seconds
+
+Input Size/Type: 100000000/Random
+Quick: 10.9355118 seconds
+
+Input Size/Type: 100/Sorted
+Quick: 8.2E-6 seconds
+
+Input Size/Type: 500/Sorted
+Quick: 1.604E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Quick: 6.15E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Quick: 0.0149072 seconds
+
+Input Size/Type: 10000/Sorted
+Quick: 0.0596101 seconds
+
+Input Size/Type: 50000/Sorted
+Quick: 1.4857536 seconds
+
+Input Size/Type: 100000/Sorted
+Quick: 5.9379113 seconds
+
+Input Size/Type: 500000/Sorted
+Quick: 148.4472742 seconds
+
+Input Size/Type: 1000000/Sorted
+Quick: 593.8044906 seconds
+
+Input Size/Type: 100/Backwards
+Quick: 7.1E-6 seconds
+
+Input Size/Type: 500/Backwards
+Quick: 1.286E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Quick: 5.101E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Quick: 0.0121703 seconds
+
+Input Size/Type: 10000/Backwards
+Quick: 0.0484121 seconds
+
+Input Size/Type: 50000/Backwards
+Quick: 1.2086314 seconds
+
+Input Size/Type: 100000/Backwards
+Quick: 4.8280044 seconds
+
+Input Size/Type: 500000/Backwards
+Quick: 120.645158 seconds
+
+Input Size/Type: 1000000/Backwards
+Quick: 482.9809807 seconds
+
+Input Size/Type: 100/Random
+Bubble: 1.13E-5 seconds
+
+Input Size/Type: 500/Random
+Bubble: 2.347E-4 seconds
+
+Input Size/Type: 1000/Random
+Bubble: 8.667E-4 seconds
+
+Input Size/Type: 5000/Random
+Bubble: 0.0230552 seconds
+
+Input Size/Type: 10000/Random
+Bubble: 0.0964949 seconds
+
+Input Size/Type: 50000/Random
+Bubble: 2.5596668 seconds
+
+Input Size/Type: 100000/Random
+Bubble: 10.260271 seconds
+
+Input Size/Type: 500000/Random
+Bubble: 256.805019 seconds
+
+Input Size/Type: 1000000/Random
+Bubble: 1029.8836098 seconds
+
+Input Size/Type: 100/Sorted
+Bubble: 4.3E-6 seconds
+
+Input Size/Type: 500/Sorted
+Bubble: 6.31E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Bubble: 2.409E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Bubble: 0.0056409 seconds
+
+Input Size/Type: 10000/Sorted
+Bubble: 0.0225213 seconds
+
+Input Size/Type: 50000/Sorted
+Bubble: 0.5584178 seconds
+
+Input Size/Type: 100000/Sorted
+Bubble: 2.2327305 seconds
+
+Input Size/Type: 500000/Sorted
+Bubble: 55.8002391 seconds
+
+Input Size/Type: 1000000/Sorted
+Bubble: 223.5664737 seconds
+
+Input Size/Type: 100/Backwards
+Bubble: 7.4E-6 seconds
+
+Input Size/Type: 500/Backwards
+Bubble: 1.8E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Bubble: 7.317E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Bubble: 0.0185559 seconds
+
+Input Size/Type: 10000/Backwards
+Bubble: 0.0740111 seconds
+
+Input Size/Type: 50000/Backwards
+Bubble: 1.8506653 seconds
+
+Input Size/Type: 100000/Backwards
+Bubble: 7.4045945 seconds
+
+Input Size/Type: 500000/Backwards
+Bubble: 185.2024306 seconds
+
+Input Size/Type: 1000000/Backwards
+Bubble: 741.3682648 seconds
+
+Input Size/Type: 100/Random
+Insertion: 2.1E-6 seconds
+
+Input Size/Type: 500/Random
+Insertion: 1.61E-5 seconds
+
+Input Size/Type: 1000/Random
+Insertion: 6.06E-5 seconds
+
+Input Size/Type: 5000/Random
+Insertion: 0.001219 seconds
+
+Input Size/Type: 10000/Random
+Insertion: 0.0047159 seconds
+
+Input Size/Type: 50000/Random
+Insertion: 0.1170887 seconds
+
+Input Size/Type: 100000/Random
+Insertion: 0.4671909 seconds
+
+Input Size/Type: 500000/Random
+Insertion: 11.9907056 seconds
+
+Input Size/Type: 1000000/Random
+Insertion: 48.2768482 seconds
+
+Input Size/Type: 100/Sorted
+Insertion: 5.0E-7 seconds
+
+Input Size/Type: 500/Sorted
+Insertion: 9.0E-7 seconds
+
+Input Size/Type: 1000/Sorted
+Insertion: 1.6E-6 seconds
+
+Input Size/Type: 5000/Sorted
+Insertion: 7.5E-6 seconds
+
+Input Size/Type: 10000/Sorted
+Insertion: 1.49E-5 seconds
+
+Input Size/Type: 50000/Sorted
+Insertion: 7.4E-5 seconds
+
+Input Size/Type: 100000/Sorted
+Insertion: 1.478E-4 seconds
+
+Input Size/Type: 500000/Sorted
+Insertion: 7.443E-4 seconds
+
+Input Size/Type: 1000000/Sorted
+Insertion: 0.0014916 seconds
+
+Input Size/Type: 100/Backwards
+Insertion: 3.8E-6 seconds
+
+Input Size/Type: 500/Backwards
+Insertion: 5.28E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Insertion: 2.002E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Insertion: 0.0046803 seconds
+
+Input Size/Type: 10000/Backwards
+Insertion: 0.0186807 seconds
+
+Input Size/Type: 50000/Backwards
+Insertion: 0.4661643 seconds
+
+Input Size/Type: 100000/Backwards
+Insertion: 1.8978755 seconds
+
+Input Size/Type: 500000/Backwards
+Insertion: 48.3433256 seconds
+
+Input Size/Type: 1000000/Backwards
+Insertion: 194.6858244 seconds
+
+Input Size/Type: 100/Random
+Selection: 7.7E-6 seconds
+
+Input Size/Type: 500/Random
+Selection: 1.21E-4 seconds
+
+Input Size/Type: 1000/Random
+Selection: 4.531E-4 seconds
+
+Input Size/Type: 5000/Random
+Selection: 0.0104332 seconds
+
+Input Size/Type: 10000/Random
+Selection: 0.0413214 seconds
+
+Input Size/Type: 50000/Random
+Selection: 1.0204427 seconds
+
+Input Size/Type: 100000/Random
+Selection: 4.07686 seconds
+
+Input Size/Type: 500000/Random
+Selection: 101.727716 seconds
+
+Input Size/Type: 1000000/Random
+Selection: 407.1130149 seconds
+
+Input Size/Type: 100/Sorted
+Selection: 5.6E-6 seconds
+
+Input Size/Type: 500/Sorted
+Selection: 1.061E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Selection: 4.19E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Selection: 0.0102143 seconds
+
+Input Size/Type: 10000/Sorted
+Selection: 0.0408498 seconds
+
+Input Size/Type: 50000/Sorted
+Selection: 1.0175215 seconds
+
+Input Size/Type: 100000/Sorted
+Selection: 4.0669368 seconds
+
+Input Size/Type: 500000/Sorted
+Selection: 101.691936 seconds
+
+Input Size/Type: 1000000/Sorted
+Selection: 407.0560363 seconds
+
+Input Size/Type: 100/Backwards
+Selection: 8.3E-6 seconds
+
+Input Size/Type: 500/Backwards
+Selection: 1.462E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Selection: 5.82E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Selection: 0.0141245 seconds
+
+Input Size/Type: 10000/Backwards
+Selection: 0.0561192 seconds
+
+Input Size/Type: 50000/Backwards
+Selection: 1.3931046 seconds
+
+Input Size/Type: 100000/Backwards
+Selection: 5.5840911 seconds
+
+Input Size/Type: 500000/Backwards
+Selection: 139.4034742 seconds
+
+Input Size/Type: 1000000/Backwards
+Selection: 560.5031509 seconds
+
+Input Size/Type: 100/Random
+Merge: 1.27E-5 seconds
+
+Input Size/Type: 500/Random
+Merge: 4.86E-5 seconds
+
+Input Size/Type: 1000/Random
+Merge: 1.057E-4 seconds
+
+Input Size/Type: 5000/Random
+Merge: 6.174E-4 seconds
+
+Input Size/Type: 10000/Random
+Merge: 0.0012506 seconds
+
+Input Size/Type: 50000/Random
+Merge: 0.0070643 seconds
+
+Input Size/Type: 100000/Random
+Merge: 0.0151539 seconds
+
+Input Size/Type: 500000/Random
+Merge: 0.1265844 seconds
+
+Input Size/Type: 1000000/Random
+Merge: 0.1486337 seconds
+
+Input Size/Type: 5000000/Random
+Merge: 0.7702227 seconds
+
+Input Size/Type: 10000000/Random
+Merge: 1.5859539 seconds
+
+Input Size/Type: 50000000/Random
+Merge: 8.5395679 seconds
+
+Input Size/Type: 100000000/Random
+Merge: 17.7066919 seconds
+
+Input Size/Type: 100/Sorted
+Merge: 1.05E-5 seconds
+
+Input Size/Type: 500/Sorted
+Merge: 3.85E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Merge: 7.82E-5 seconds
+
+Input Size/Type: 5000/Sorted
+Merge: 3.969E-4 seconds
+
+Input Size/Type: 10000/Sorted
+Merge: 8.505E-4 seconds
+
+Input Size/Type: 50000/Sorted
+Merge: 0.0045228 seconds
+
+Input Size/Type: 100000/Sorted
+Merge: 0.0093319 seconds
+
+Input Size/Type: 500000/Sorted
+Merge: 0.100457 seconds
+
+Input Size/Type: 1000000/Sorted
+Merge: 0.0657606 seconds
+
+Input Size/Type: 5000000/Sorted
+Merge: 0.363443 seconds
+
+Input Size/Type: 10000000/Sorted
+Merge: 0.7358993 seconds
+
+Input Size/Type: 50000000/Sorted
+Merge: 3.8060645 seconds
+
+Input Size/Type: 100000000/Sorted
+Merge: 7.7976026 seconds
+
+Input Size/Type: 100/Backwards
+Merge: 1.07E-5 seconds
+
+Input Size/Type: 500/Backwards
+Merge: 3.83E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Merge: 8.33E-5 seconds
+
+Input Size/Type: 5000/Backwards
+Merge: 4.264E-4 seconds
+
+Input Size/Type: 10000/Backwards
+Merge: 8.74E-4 seconds
+
+Input Size/Type: 50000/Backwards
+Merge: 0.0046404 seconds
+
+Input Size/Type: 100000/Backwards
+Merge: 0.0066411 seconds
+
+Input Size/Type: 500000/Backwards
+Merge: 0.0983145 seconds
+
+Input Size/Type: 1000000/Backwards
+Merge: 0.0682232 seconds
+
+Input Size/Type: 5000000/Backwards
+Merge: 0.3776519 seconds
+
+Input Size/Type: 10000000/Backwards
+Merge: 0.7700603 seconds
+
+Input Size/Type: 50000000/Backwards
+Merge: 3.9743703 seconds
+
+Input Size/Type: 100000000/Backwards
+Merge: 8.1730666 seconds
+
+Input Size/Type: 100/Random
+Quick: 4.1E-6 seconds
+
+Input Size/Type: 500/Random
+Quick: 2.19E-5 seconds
+
+Input Size/Type: 1000/Random
+Quick: 5.38E-5 seconds
+
+Input Size/Type: 5000/Random
+Quick: 2.781E-4 seconds
+
+Input Size/Type: 10000/Random
+Quick: 5.981E-4 seconds
+
+Input Size/Type: 50000/Random
+Quick: 0.0033788 seconds
+
+Input Size/Type: 100000/Random
+Quick: 0.0071688 seconds
+
+Input Size/Type: 500000/Random
+Quick: 0.0388717 seconds
+
+Input Size/Type: 1000000/Random
+Quick: 0.0821464 seconds
+
+Input Size/Type: 5000000/Random
+Quick: 0.4689991 seconds
+
+Input Size/Type: 10000000/Random
+Quick: 0.9851746 seconds
+
+Input Size/Type: 50000000/Random
+Quick: 5.2623957 seconds
+
+Input Size/Type: 100000000/Random
+Quick: 11.0147265 seconds
+
+Input Size/Type: 100/Sorted
+Quick: 7.9E-6 seconds
+
+Input Size/Type: 500/Sorted
+Quick: 1.603E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Quick: 6.151E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Quick: 0.0149029 seconds
+
+Input Size/Type: 10000/Sorted
+Quick: 0.059892 seconds
+
+Input Size/Type: 50000/Sorted
+Quick: 1.4844137 seconds
+
+Input Size/Type: 100000/Sorted
+Quick: 5.9356347 seconds
+
+Input Size/Type: 500000/Sorted
+Quick: 148.4085288 seconds
+
+Input Size/Type: 1000000/Sorted
+Quick: 594.4599767 seconds
+
+Input Size/Type: 100/Backwards
+Quick: 7.1E-6 seconds
+
+Input Size/Type: 500/Backwards
+Quick: 1.286E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Quick: 5.064E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Quick: 0.0121704 seconds
+
+Input Size/Type: 10000/Backwards
+Quick: 0.0484383 seconds
+
+Input Size/Type: 50000/Backwards
+Quick: 1.2081056 seconds
+
+Input Size/Type: 100000/Backwards
+Quick: 4.8290378 seconds
+
+Input Size/Type: 500000/Backwards
+Quick: 120.67237 seconds
+
+Input Size/Type: 1000000/Backwards
+Quick: 482.7790946 seconds
+
+Input Size/Type: 100/Random
+Bubble: 1.09E-5 seconds
+
+Input Size/Type: 500/Random
+Bubble: 2.358E-4 seconds
+
+Input Size/Type: 1000/Random
+Bubble: 8.583E-4 seconds
+
+Input Size/Type: 5000/Random
+Bubble: 0.023104 seconds
+
+Input Size/Type: 10000/Random
+Bubble: 0.0969605 seconds
+
+Input Size/Type: 50000/Random
+Bubble: 2.55656 seconds
+
+Input Size/Type: 100000/Random
+Bubble: 10.2639228 seconds
+
+Input Size/Type: 500000/Random
+Bubble: 256.6203382 seconds
+
+Input Size/Type: 1000000/Random
+Bubble: 1027.7677858 seconds
+
+Input Size/Type: 100/Sorted
+Bubble: 4.2E-6 seconds
+
+Input Size/Type: 500/Sorted
+Bubble: 6.31E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Bubble: 2.411E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Bubble: 0.0056364 seconds
+
+Input Size/Type: 10000/Sorted
+Bubble: 0.0225194 seconds
+
+Input Size/Type: 50000/Sorted
+Bubble: 0.5596055 seconds
+
+Input Size/Type: 100000/Sorted
+Bubble: 2.2339544 seconds
+
+Input Size/Type: 500000/Sorted
+Bubble: 55.7920994 seconds
+
+Input Size/Type: 1000000/Sorted
+Bubble: 223.477451 seconds
+
+Input Size/Type: 100/Backwards
+Bubble: 7.4E-6 seconds
+
+Input Size/Type: 500/Backwards
+Bubble: 1.8E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Bubble: 7.317E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Bubble: 0.0184167 seconds
+
+Input Size/Type: 10000/Backwards
+Bubble: 0.074016 seconds
+
+Input Size/Type: 50000/Backwards
+Bubble: 1.851586 seconds
+
+Input Size/Type: 100000/Backwards
+Bubble: 7.4028793 seconds
+
+Input Size/Type: 500000/Backwards
+Bubble: 185.2060571 seconds
+
+Input Size/Type: 1000000/Backwards
+Bubble: 741.4142914 seconds
+
+Input Size/Type: 100/Random
+Insertion: 2.2E-6 seconds
+
+Input Size/Type: 500/Random
+Insertion: 1.61E-5 seconds
+
+Input Size/Type: 1000/Random
+Insertion: 6.04E-5 seconds
+
+Input Size/Type: 5000/Random
+Insertion: 0.0011655 seconds
+
+Input Size/Type: 10000/Random
+Insertion: 0.0047021 seconds
+
+Input Size/Type: 50000/Random
+Insertion: 0.1169064 seconds
+
+Input Size/Type: 100000/Random
+Insertion: 0.4667447 seconds
+
+Input Size/Type: 500000/Random
+Insertion: 12.0024861 seconds
+
+Input Size/Type: 1000000/Random
+Insertion: 48.2664995 seconds
+
+Input Size/Type: 100/Sorted
+Insertion: 5.0E-7 seconds
+
+Input Size/Type: 500/Sorted
+Insertion: 9.0E-7 seconds
+
+Input Size/Type: 1000/Sorted
+Insertion: 1.7E-6 seconds
+
+Input Size/Type: 5000/Sorted
+Insertion: 7.5E-6 seconds
+
+Input Size/Type: 10000/Sorted
+Insertion: 1.49E-5 seconds
+
+Input Size/Type: 50000/Sorted
+Insertion: 7.43E-5 seconds
+
+Input Size/Type: 100000/Sorted
+Insertion: 1.49E-4 seconds
+
+Input Size/Type: 500000/Sorted
+Insertion: 7.413E-4 seconds
+
+Input Size/Type: 1000000/Sorted
+Insertion: 0.0014973 seconds
+
+Input Size/Type: 100/Backwards
+Insertion: 3.9E-6 seconds
+
+Input Size/Type: 500/Backwards
+Insertion: 5.26E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Insertion: 2.002E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Insertion: 0.0046841 seconds
+
+Input Size/Type: 10000/Backwards
+Insertion: 0.0187166 seconds
+
+Input Size/Type: 50000/Backwards
+Insertion: 0.4657613 seconds
+
+Input Size/Type: 100000/Backwards
+Insertion: 1.8989199 seconds
+
+Input Size/Type: 500000/Backwards
+Insertion: 48.3502694 seconds
+
+Input Size/Type: 1000000/Backwards
+Insertion: 194.4919679 seconds
+
+Input Size/Type: 100/Random
+Selection: 7.6E-6 seconds
+
+Input Size/Type: 500/Random
+Selection: 1.208E-4 seconds
+
+Input Size/Type: 1000/Random
+Selection: 4.524E-4 seconds
+
+Input Size/Type: 5000/Random
+Selection: 0.0104324 seconds
+
+Input Size/Type: 10000/Random
+Selection: 0.0413203 seconds
+
+Input Size/Type: 50000/Random
+Selection: 1.0205458 seconds
+
+Input Size/Type: 100000/Random
+Selection: 4.0743135 seconds
+
+Input Size/Type: 500000/Random
+Selection: 101.7344203 seconds
+
+Input Size/Type: 1000000/Random
+Selection: 407.079402 seconds
+
+Input Size/Type: 100/Sorted
+Selection: 5.7E-6 seconds
+
+Input Size/Type: 500/Sorted
+Selection: 1.063E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Selection: 4.226E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Selection: 0.0102114 seconds
+
+Input Size/Type: 10000/Sorted
+Selection: 0.0407886 seconds
+
+Input Size/Type: 50000/Sorted
+Selection: 1.0187473 seconds
+
+Input Size/Type: 100000/Sorted
+Selection: 4.0679521 seconds
+
+Input Size/Type: 500000/Sorted
+Selection: 101.6745032 seconds
+
+Input Size/Type: 1000000/Sorted
+Selection: 407.007164 seconds
+
+Input Size/Type: 100/Backwards
+Selection: 8.3E-6 seconds
+
+Input Size/Type: 500/Backwards
+Selection: 1.507E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Selection: 5.779E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Selection: 0.0140399 seconds
+
+Input Size/Type: 10000/Backwards
+Selection: 0.0560016 seconds
+
+Input Size/Type: 50000/Backwards
+Selection: 1.4041447 seconds
+
+Input Size/Type: 100000/Backwards
+Selection: 5.5804417 seconds
+
+Input Size/Type: 500000/Backwards
+Selection: 139.3682775 seconds
+
+Input Size/Type: 1000000/Backwards
+Selection: 557.0767407 seconds
+
+Input Size/Type: 100/Random
+Merge: 1.17E-5 seconds
+
+Input Size/Type: 500/Random
+Merge: 4.81E-5 seconds
+
+Input Size/Type: 1000/Random
+Merge: 1.044E-4 seconds
+
+Input Size/Type: 5000/Random
+Merge: 6.037E-4 seconds
+
+Input Size/Type: 10000/Random
+Merge: 0.0012347 seconds
+
+Input Size/Type: 50000/Random
+Merge: 0.0070056 seconds
+
+Input Size/Type: 100000/Random
+Merge: 0.0148171 seconds
+
+Input Size/Type: 500000/Random
+Merge: 0.1251728 seconds
+
+Input Size/Type: 1000000/Random
+Merge: 0.1481383 seconds
+
+Input Size/Type: 5000000/Random
+Merge: 0.7675094 seconds
+
+Input Size/Type: 10000000/Random
+Merge: 1.5849201 seconds
+
+Input Size/Type: 50000000/Random
+Merge: 8.4855819 seconds
+
+Input Size/Type: 100000000/Random
+Merge: 17.5765356 seconds
+
+Input Size/Type: 100/Sorted
+Merge: 1.01E-5 seconds
+
+Input Size/Type: 500/Sorted
+Merge: 3.53E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Merge: 7.87E-5 seconds
+
+Input Size/Type: 5000/Sorted
+Merge: 4.234E-4 seconds
+
+Input Size/Type: 10000/Sorted
+Merge: 8.809E-4 seconds
+
+Input Size/Type: 50000/Sorted
+Merge: 0.0045969 seconds
+
+Input Size/Type: 100000/Sorted
+Merge: 0.0095769 seconds
+
+Input Size/Type: 500000/Sorted
+Merge: 0.0987564 seconds
+
+Input Size/Type: 1000000/Sorted
+Merge: 0.0638067 seconds
+
+Input Size/Type: 5000000/Sorted
+Merge: 0.3617319 seconds
+
+Input Size/Type: 10000000/Sorted
+Merge: 0.7299848 seconds
+
+Input Size/Type: 50000000/Sorted
+Merge: 3.7914303 seconds
+
+Input Size/Type: 100000000/Sorted
+Merge: 7.7403824 seconds
+
+Input Size/Type: 100/Backwards
+Merge: 1.03E-5 seconds
+
+Input Size/Type: 500/Backwards
+Merge: 3.71E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Merge: 7.94E-5 seconds
+
+Input Size/Type: 5000/Backwards
+Merge: 4.363E-4 seconds
+
+Input Size/Type: 10000/Backwards
+Merge: 8.888E-4 seconds
+
+Input Size/Type: 50000/Backwards
+Merge: 0.0047249 seconds
+
+Input Size/Type: 100000/Backwards
+Merge: 0.0071332 seconds
+
+Input Size/Type: 500000/Backwards
+Merge: 0.1015444 seconds
+
+Input Size/Type: 1000000/Backwards
+Merge: 0.0669232 seconds
+
+Input Size/Type: 5000000/Backwards
+Merge: 0.3786513 seconds
+
+Input Size/Type: 10000000/Backwards
+Merge: 0.7724678 seconds
+
+Input Size/Type: 50000000/Backwards
+Merge: 3.9663207 seconds
+
+Input Size/Type: 100000000/Backwards
+Merge: 8.1464165 seconds
+
+Input Size/Type: 100/Random
+Quick: 4.1E-6 seconds
+
+Input Size/Type: 500/Random
+Quick: 2.13E-5 seconds
+
+Input Size/Type: 1000/Random
+Quick: 5.13E-5 seconds
+
+Input Size/Type: 5000/Random
+Quick: 2.839E-4 seconds
+
+Input Size/Type: 10000/Random
+Quick: 5.806E-4 seconds
+
+Input Size/Type: 50000/Random
+Quick: 0.0033505 seconds
+
+Input Size/Type: 100000/Random
+Quick: 0.0069902 seconds
+
+Input Size/Type: 500000/Random
+Quick: 0.0399058 seconds
+
+Input Size/Type: 1000000/Random
+Quick: 0.0825412 seconds
+
+Input Size/Type: 5000000/Random
+Quick: 0.4620606 seconds
+
+Input Size/Type: 10000000/Random
+Quick: 0.9551179 seconds
+
+Input Size/Type: 50000000/Random
+Quick: 5.2763345 seconds
+
+Input Size/Type: 100000000/Random
+Quick: 10.8783896 seconds
+
+Input Size/Type: 100/Sorted
+Quick: 7.8E-6 seconds
+
+Input Size/Type: 500/Sorted
+Quick: 1.558E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Quick: 6.122E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Quick: 0.0148824 seconds
+
+Input Size/Type: 10000/Sorted
+Quick: 0.0596738 seconds
+
+Input Size/Type: 50000/Sorted
+Quick: 1.4832112 seconds
+
+Input Size/Type: 100000/Sorted
+Quick: 5.9407274 seconds
+
+Input Size/Type: 500000/Sorted
+Quick: 148.4458795 seconds
+
+Input Size/Type: 1000000/Sorted
+Quick: 594.3670121 seconds
+
+Input Size/Type: 100/Backwards
+Quick: 7.3E-6 seconds
+
+Input Size/Type: 500/Backwards
+Quick: 1.288E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Quick: 5.039E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Quick: 0.012331 seconds
+
+Input Size/Type: 10000/Backwards
+Quick: 0.048464 seconds
+
+Input Size/Type: 50000/Backwards
+Quick: 1.2096156 seconds
+
+Input Size/Type: 100000/Backwards
+Quick: 4.8351394 seconds
+
+Input Size/Type: 500000/Backwards
+Quick: 120.771256 seconds
+
+Input Size/Type: 1000000/Backwards
+Quick: 482.9655903 seconds
+
+Input Size/Type: 100/Random
+Bubble: 1.12E-5 seconds
+
+Input Size/Type: 500/Random
+Bubble: 2.258E-4 seconds
+
+Input Size/Type: 1000/Random
+Bubble: 8.601E-4 seconds
+
+Input Size/Type: 5000/Random
+Bubble: 0.022622 seconds
+
+Input Size/Type: 10000/Random
+Bubble: 0.0965838 seconds
+
+Input Size/Type: 50000/Random
+Bubble: 2.5543243 seconds
+
+Input Size/Type: 100000/Random
+Bubble: 10.2430726 seconds
+
+Input Size/Type: 500000/Random
+Bubble: 256.0611071 seconds
+
+Input Size/Type: 1000000/Random
+Bubble: 1026.8157492 seconds
+
+Input Size/Type: 100/Sorted
+Bubble: 4.1E-6 seconds
+
+Input Size/Type: 500/Sorted
+Bubble: 6.33E-5 seconds
+
+Input Size/Type: 1000/Sorted
+Bubble: 2.407E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Bubble: 0.0056709 seconds
+
+Input Size/Type: 10000/Sorted
+Bubble: 0.0225081 seconds
+
+Input Size/Type: 50000/Sorted
+Bubble: 0.5593037 seconds
+
+Input Size/Type: 100000/Sorted
+Bubble: 2.2322506 seconds
+
+Input Size/Type: 500000/Sorted
+Bubble: 55.8084065 seconds
+
+Input Size/Type: 1000000/Sorted
+Bubble: 223.4999702 seconds
+
+Input Size/Type: 100/Backwards
+Bubble: 7.5E-6 seconds
+
+Input Size/Type: 500/Backwards
+Bubble: 1.801E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Bubble: 7.37E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Bubble: 0.0185609 seconds
+
+Input Size/Type: 10000/Backwards
+Bubble: 0.0737224 seconds
+
+Input Size/Type: 50000/Backwards
+Bubble: 1.8501123 seconds
+
+Input Size/Type: 100000/Backwards
+Bubble: 7.4050622 seconds
+
+Input Size/Type: 500000/Backwards
+Bubble: 185.166326 seconds
+
+Input Size/Type: 1000000/Backwards
+Bubble: 741.6235288 seconds
+
+Input Size/Type: 100/Random
+Insertion: 2.2E-6 seconds
+
+Input Size/Type: 500/Random
+Insertion: 1.7E-5 seconds
+
+Input Size/Type: 1000/Random
+Insertion: 6.6E-5 seconds
+
+Input Size/Type: 5000/Random
+Insertion: 0.0011865 seconds
+
+Input Size/Type: 10000/Random
+Insertion: 0.0047456 seconds
+
+Input Size/Type: 50000/Random
+Insertion: 0.1170306 seconds
+
+Input Size/Type: 100000/Random
+Insertion: 0.4681526 seconds
+
+Input Size/Type: 500000/Random
+Insertion: 12.025004 seconds
+
+Input Size/Type: 1000000/Random
+Insertion: 48.2688155 seconds
+
+Input Size/Type: 100/Sorted
+Insertion: 4.0E-7 seconds
+
+Input Size/Type: 500/Sorted
+Insertion: 9.0E-7 seconds
+
+Input Size/Type: 1000/Sorted
+Insertion: 1.7E-6 seconds
+
+Input Size/Type: 5000/Sorted
+Insertion: 7.5E-6 seconds
+
+Input Size/Type: 10000/Sorted
+Insertion: 1.52E-5 seconds
+
+Input Size/Type: 50000/Sorted
+Insertion: 7.42E-5 seconds
+
+Input Size/Type: 100000/Sorted
+Insertion: 1.489E-4 seconds
+
+Input Size/Type: 500000/Sorted
+Insertion: 7.487E-4 seconds
+
+Input Size/Type: 1000000/Sorted
+Insertion: 0.0014967 seconds
+
+Input Size/Type: 100/Backwards
+Insertion: 3.8E-6 seconds
+
+Input Size/Type: 500/Backwards
+Insertion: 5.26E-5 seconds
+
+Input Size/Type: 1000/Backwards
+Insertion: 2.002E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Insertion: 0.004727 seconds
+
+Input Size/Type: 10000/Backwards
+Insertion: 0.0186669 seconds
+
+Input Size/Type: 50000/Backwards
+Insertion: 0.466376 seconds
+
+Input Size/Type: 100000/Backwards
+Insertion: 1.8971016 seconds
+
+Input Size/Type: 500000/Backwards
+Insertion: 48.3415784 seconds
+
+Input Size/Type: 1000000/Backwards
+Insertion: 194.7751365 seconds
+
+Input Size/Type: 100/Random
+Selection: 7.8E-6 seconds
+
+Input Size/Type: 500/Random
+Selection: 1.209E-4 seconds
+
+Input Size/Type: 1000/Random
+Selection: 4.588E-4 seconds
+
+Input Size/Type: 5000/Random
+Selection: 0.0104437 seconds
+
+Input Size/Type: 10000/Random
+Selection: 0.0413289 seconds
+
+Input Size/Type: 50000/Random
+Selection: 1.0203351 seconds
+
+Input Size/Type: 100000/Random
+Selection: 4.0734029 seconds
+
+Input Size/Type: 500000/Random
+Selection: 101.7475659 seconds
+
+Input Size/Type: 1000000/Random
+Selection: 407.0785376 seconds
+
+Input Size/Type: 100/Sorted
+Selection: 5.6E-6 seconds
+
+Input Size/Type: 500/Sorted
+Selection: 1.062E-4 seconds
+
+Input Size/Type: 1000/Sorted
+Selection: 4.189E-4 seconds
+
+Input Size/Type: 5000/Sorted
+Selection: 0.0102147 seconds
+
+Input Size/Type: 10000/Sorted
+Selection: 0.0408185 seconds
+
+Input Size/Type: 50000/Sorted
+Selection: 1.0184937 seconds
+
+Input Size/Type: 100000/Sorted
+Selection: 4.0692239 seconds
+
+Input Size/Type: 500000/Sorted
+Selection: 101.7008805 seconds
+
+Input Size/Type: 1000000/Sorted
+Selection: 407.0811244 seconds
+
+Input Size/Type: 100/Backwards
+Selection: 8.7E-6 seconds
+
+Input Size/Type: 500/Backwards
+Selection: 1.496E-4 seconds
+
+Input Size/Type: 1000/Backwards
+Selection: 5.717E-4 seconds
+
+Input Size/Type: 5000/Backwards
+Selection: 0.0140924 seconds
+
+Input Size/Type: 10000/Backwards
+Selection: 0.0561733 seconds
+
+Input Size/Type: 50000/Backwards
+Selection: 1.4019186 seconds
+
+Input Size/Type: 100000/Backwards
+Selection: 5.6018491 seconds
+
+Input Size/Type: 500000/Backwards
+Selection: 139.4598457 seconds
+
+Input Size/Type: 1000000/Backwards
+Selection: 558.4645429 seconds
+
+Average for Merge 100/Random is 2.4599999999999995E-5s.
+Average for Merge 500/Random is 1.0008999999999999E-4s.
+Average for Merge 1000/Random is 1.2632E-4s.
+Average for Merge 5000/Random is 9.027E-4s.
+Average for Merge 10000/Random is 0.00180161s.
+Average for Merge 50000/Random is 0.00842192s.
+Average for Merge 100000/Random is 0.01521487s.
+Average for Merge 500000/Random is 0.12382722000000002s.
+Average for Merge 1000000/Random is 0.15357101s.
+Average for Merge 5000000/Random is 0.78934521s.
+Average for Merge 10000000/Random is 1.5894963899999999s.
+Average for Merge 50000000/Random is 8.528395479999999s.
+Average for Merge 100000000/Random is 17.72416372s.
+Average for Merge 100/Sorted is 1.0500000000000001E-5s.
+Average for Merge 500/Sorted is 3.59E-5s.
+Average for Merge 1000/Sorted is 7.785E-5s.
+Average for Merge 5000/Sorted is 4.0704E-4s.
+Average for Merge 10000/Sorted is 8.6394E-4s.
+Average for Merge 50000/Sorted is 0.00454904s.
+Average for Merge 100000/Sorted is 0.00932607s.
+Average for Merge 500000/Sorted is 0.10092656000000003s.
+Average for Merge 1000000/Sorted is 0.06692214s.
+Average for Merge 5000000/Sorted is 0.36836159s.
+Average for Merge 10000000/Sorted is 0.7447801000000001s.
+Average for Merge 50000000/Sorted is 3.8184269100000003s.
+Average for Merge 100000000/Sorted is 7.863790140000001s.
+Average for Merge 100/Backwards is 1.005E-5s.
+Average for Merge 500/Backwards is 3.522E-5s.
+Average for Merge 1000/Backwards is 7.738000000000001E-5s.
+Average for Merge 5000/Backwards is 4.0392E-4s.
+Average for Merge 10000/Backwards is 8.431199999999999E-4s.
+Average for Merge 50000/Backwards is 0.0040765s.
+Average for Merge 100000/Backwards is 0.006367439999999999s.
+Average for Merge 500000/Backwards is 0.10284814s.
+Average for Merge 1000000/Backwards is 0.06744518s.
+Average for Merge 5000000/Backwards is 0.37870632s.
+Average for Merge 10000000/Backwards is 0.7754755600000001s.
+Average for Merge 50000000/Backwards is 4.0003752299999995s.
+Average for Merge 100000000/Backwards is 8.20719458s.
+Average for Quick 100/Random is 1.2549999999999998E-5s.
+Average for Quick 500/Random is 4.5559999999999984E-5s.
+Average for Quick 1000/Random is 6.398E-5s.
+Average for Quick 5000/Random is 3.3239E-4s.
+Average for Quick 10000/Random is 6.664799999999999E-4s.
+Average for Quick 50000/Random is 0.0035972700000000005s.
+Average for Quick 100000/Random is 0.00717067s.
+Average for Quick 500000/Random is 0.03912581s.
+Average for Quick 1000000/Random is 0.08302952s.
+Average for Quick 5000000/Random is 0.46697098000000004s.
+Average for Quick 10000000/Random is 0.9737293499999999s.
+Average for Quick 50000000/Random is 5.309868959999999s.
+Average for Quick 100000000/Random is 10.975985699999999s.
+Average for Quick 100/Sorted is 8.02E-6s.
+Average for Quick 500/Sorted is 1.5685E-4s.
+Average for Quick 1000/Sorted is 6.159600000000001E-4s.
+Average for Quick 5000/Sorted is 0.014929429999999999s.
+Average for Quick 10000/Sorted is 0.05963976000000001s.
+Average for Quick 50000/Sorted is 1.48503784s.
+Average for Quick 100000/Sorted is 5.939868840000001s.
+Average for Quick 500000/Sorted is 148.46442068000002s.
+Average for Quick 1000000/Sorted is 594.75379342s.
+Average for Quick 100/Backwards is 7.36E-6s.
+Average for Quick 500/Backwards is 1.3019E-4s.
+Average for Quick 1000/Backwards is 5.106499999999999E-4s.
+Average for Quick 5000/Backwards is 0.012198659999999998s.
+Average for Quick 10000/Backwards is 0.04856059s.
+Average for Quick 50000/Backwards is 1.2094136299999998s.
+Average for Quick 100000/Backwards is 4.8308672900000005s.
+Average for Quick 500000/Backwards is 120.74828202s.
+Average for Quick 1000000/Backwards is 483.90862402000005s.
+Average for Bubble 100/Random is 3.451000000000001E-5s.
+Average for Bubble 500/Random is 4.750100000000001E-4s.
+Average for Bubble 1000/Random is 9.868700000000002E-4s.
+Average for Bubble 5000/Random is 0.02407078s.
+Average for Bubble 10000/Random is 0.09690579s.
+Average for Bubble 50000/Random is 2.55356702s.
+Average for Bubble 100000/Random is 10.25179823s.
+Average for Bubble 500000/Random is 256.61594241999995s.
+Average for Bubble 1000000/Random is 1030.38875553s.
+Average for Bubble 100/Sorted is 4.29E-6s.
+Average for Bubble 500/Sorted is 6.335999999999999E-5s.
+Average for Bubble 1000/Sorted is 2.4156999999999998E-4s.
+Average for Bubble 5000/Sorted is 0.005641869999999999s.
+Average for Bubble 10000/Sorted is 0.0225229s.
+Average for Bubble 50000/Sorted is 0.5591935299999999s.
+Average for Bubble 100000/Sorted is 2.2332113700000003s.
+Average for Bubble 500000/Sorted is 55.848997970000006s.
+Average for Bubble 1000000/Sorted is 224.12358615999997s.
+Average for Bubble 100/Backwards is 7.530000000000002E-6s.
+Average for Bubble 500/Backwards is 1.8086E-4s.
+Average for Bubble 1000/Backwards is 7.3971E-4s.
+Average for Bubble 5000/Backwards is 0.01847548s.
+Average for Bubble 10000/Backwards is 0.07398748999999999s.
+Average for Bubble 50000/Backwards is 1.85262551s.
+Average for Bubble 100000/Backwards is 7.405636750000001s.
+Average for Bubble 500000/Backwards is 185.25970148000002s.
+Average for Bubble 1000000/Backwards is 741.9088848500002s.
+Average for Insertion 100/Random is 8.02E-6s.
+Average for Insertion 500/Random is 1.0398E-4s.
+Average for Insertion 1000/Random is 2.0181000000000002E-4s.
+Average for Insertion 5000/Random is 0.00157482s.
+Average for Insertion 10000/Random is 0.005308370000000001s.
+Average for Insertion 50000/Random is 0.11687818000000001s.
+Average for Insertion 100000/Random is 0.46794488999999995s.
+Average for Insertion 500000/Random is 12.01067308s.
+Average for Insertion 1000000/Random is 48.366844310000005s.
+Average for Insertion 100/Sorted is 1.3099999999999997E-6s.
+Average for Insertion 500/Sorted is 9.8E-7s.
+Average for Insertion 1000/Sorted is 1.6700000000000003E-6s.
+Average for Insertion 5000/Sorted is 7.5600000000000005E-6s.
+Average for Insertion 10000/Sorted is 1.6559999999999997E-5s.
+Average for Insertion 50000/Sorted is 7.427E-5s.
+Average for Insertion 100000/Sorted is 1.4854E-4s.
+Average for Insertion 500000/Sorted is 7.483E-4s.
+Average for Insertion 1000000/Sorted is 0.0015059200000000002s.
+Average for Insertion 100/Backwards is 2.6429999999999993E-5s.
+Average for Insertion 500/Backwards is 8.713E-5s.
+Average for Insertion 1000/Backwards is 3.349700000000001E-4s.
+Average for Insertion 5000/Backwards is 0.0048331599999999995s.
+Average for Insertion 10000/Backwards is 0.01873432s.
+Average for Insertion 50000/Backwards is 0.46604511000000004s.
+Average for Insertion 100000/Backwards is 1.89866214s.
+Average for Insertion 500000/Backwards is 48.40044189000001s.
+Average for Insertion 1000000/Backwards is 195.6408157s.
+Average for Selection 100/Random is 2.2009999999999998E-5s.
+Average for Selection 500/Random is 2.8174999999999994E-4s.
+Average for Selection 1000/Random is 5.6537E-4s.
+Average for Selection 5000/Random is 0.01135307s.
+Average for Selection 10000/Random is 0.04133371s.
+Average for Selection 50000/Random is 1.02101955s.
+Average for Selection 100000/Random is 4.07660158s.
+Average for Selection 500000/Random is 101.77975617999999s.
+Average for Selection 1000000/Random is 407.85097228999996s.
+Average for Selection 100/Sorted is 5.670000000000001E-6s.
+Average for Selection 500/Sorted is 1.3179E-4s.
+Average for Selection 1000/Sorted is 4.2052999999999996E-4s.
+Average for Selection 5000/Sorted is 0.01023381s.
+Average for Selection 10000/Sorted is 0.04087523s.
+Average for Selection 50000/Sorted is 1.0176319399999998s.
+Average for Selection 100000/Sorted is 4.0688414s.
+Average for Selection 500000/Sorted is 101.71236164000001s.
+Average for Selection 1000000/Sorted is 407.67511993000005s.
+Average for Selection 100/Backwards is 8.429999999999999E-6s.
+Average for Selection 500/Backwards is 1.4757E-4s.
+Average for Selection 1000/Backwards is 5.805299999999999E-4s.
+Average for Selection 5000/Backwards is 0.015572349999999999s.
+Average for Selection 10000/Backwards is 0.056094679999999994s.
+Average for Selection 50000/Backwards is 1.3994585899999998s.
+Average for Selection 100000/Backwards is 5.5951486s.
+Average for Selection 500000/Backwards is 139.62178519s.
+Average for Selection 1000000/Backwards is 558.78228805s.
