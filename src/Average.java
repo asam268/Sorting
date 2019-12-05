@@ -29,7 +29,7 @@ public class Average {
     /**
      * Increments counter, adds parameter to local sum
      *
-     * @param num double, value added to sum
+     * @param num value added to sum
      */
     public void add(double num) {
         count++;

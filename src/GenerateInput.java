@@ -13,9 +13,9 @@ public class GenerateInput {
 
     public GenerateInput() throws IOException {
         analysis = new Analysis();
-        for (int i = 0; i < 10; i++)
-            generate(); //for loop can be added here for testing multiple times.
-        analysis.writeAverages();
+        for (int i = 0; i < 10; i++) //run tests 10 times
+            generate(); //generate tests
+        analysis.writeAverages(); //write average run times
     }
 
 
@@ -45,12 +45,12 @@ public class GenerateInput {
                 System.runFinalization();
             }
         }
-        for (int j = 0; j < 3; j++) {
-            for (int i = 100; i <= 1000000; i = i * 10) {
-                populate("Bubble", i, j);
+        for (int j = 0; j < 3; j++) { //three tests: random, sorted, backwards
+            for (int i = 100; i <= 1000000; i = i * 10) { //input sizes: 100, 500, 1000, ... , 1000000
+                populate("Bubble", i, j); //Creates arrays, sorts, and keeps track of run times
                 if (i * 5 < 5000000)
                     populate("Bubble", i * 5, j);
-                System.runFinalization();
+                System.runFinalization(); //Clears unused variables to avoid memory errors
             }
         }
         for (int j = 0; j < 3; j++) {
