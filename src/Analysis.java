@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * @author Asa Marshall
  * @author Zhyere Ducksworth
- *
+ * <p>
  * This class is used to write test results to a text file.
  */
 public class Analysis {
@@ -17,57 +17,53 @@ public class Analysis {
     }
 
     /**
-     * Checks if there exists an Average object for a specific test case. If yes, add the runtime to the Average
+     * Checks if there exists an Average object for a specific test case. If yes, add the runtime to the Average object.
+     * If no, create a new Average object to store data.
      *
-     * @param algo
-     * @param type
-     * @param n
-     * @param runtime
+     * @param algo    Name of the algorithm
+     * @param type    Input type
+     * @param n       Input size
+     * @param runtime Runtime of the algorithm
      */
-    public void calculateAverage(String algo, String type, int n, double runtime){
+    public void calculateAverage(String algo, String type, int n, double runtime) {
         boolean create = true;
-        for(int i = 0; i < averages.size(); i++){
-            if(algo.equalsIgnoreCase(averages.get(i).getAlgo()) && type.equalsIgnoreCase(averages.get(i).getInputType())
-                    && n == averages.get(i).getInputSize()){
-                averages.get(i).add(runtime);
+        for (Average average : averages) {
+            if (algo.equalsIgnoreCase(average.getAlgo()) && type.equalsIgnoreCase(average.getInputType())
+                    && n == average.getInputSize()) {
+                average.add(runtime);
                 create = false;
             }
         }
-        if(create){
+        if (create) {
             averages.add(new Average(algo, n, type));
-            averages.get(averages.size()-1).add(runtime);
+            averages.get(averages.size() - 1).add(runtime);
         }
     }
 
+    /**
+     * Writes all data from the Average array to 'sorting_analysis.txt'
+     *
+     * @throws IOException throws for FileNotFoundException
+     */
     public void writeAverages() throws IOException {
         FileWriter fw = new FileWriter("sorting_analysis.txt", true);
-        for(Average a : averages){
+        for (Average a : averages) {
             fw.write(a.toString());
             fw.write(System.lineSeparator());
         }
         fw.close();
     }
 
+    /**
+     * Writes the data from each test to 'sorting_analysis.txt'
+     *
+     * @param algo    Name of the algorithm
+     * @param type    Input type
+     * @param n       Input size
+     * @param runtime Runtime of the algorithm
+     * @throws IOException throws for FileNotFoundException
+     */
     public void writeAnalysis(String algo, String type, int n, double runtime) throws IOException {
-        /*
-        We need to run tests on algorithms for Merge and Quick first, up to 100m. After running every input size/type
-        against these two, we should run input sizes/types against the O(n^2) algorithms one at a time.
-
-        Sample output for Analysis
-        Input size/type: 100/random
-        Merge: 0s
-        Quick: 0s
-
-        Input size/type: 500/random
-        Merge: 0s
-        Quick: 0s
-
-        ...
-
-        Input size/type: 100/sorted
-        Merge: 0s
-        Quick: 0s
-         */
         calculateAverage(algo, type, n, runtime);
         FileWriter fw = new FileWriter("sorting_analysis.txt", true);
         fw.write("Input Size/Type: " + n + "/" + type);

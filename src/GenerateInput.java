@@ -13,7 +13,7 @@ public class GenerateInput {
 
     public GenerateInput() throws IOException {
         analysis = new Analysis();
-        for(int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++)
             generate(); //for loop can be added here for testing multiple times.
         analysis.writeAverages();
     }
@@ -27,14 +27,14 @@ public class GenerateInput {
      * @throws IOException Throws for FileNotFoundException
      */
     public void generate() throws IOException {
-		for(int j = 0; j < 3; j++) {
-			for (int i = 100; i <= 100000000; i = i * 10) {
-				populate("Merge", i, j);
-				if (i * 5 < 500000000)
-					populate("Merge",i * 5, j);
-				System.runFinalization();
-			}
-		}
+        for (int j = 0; j < 3; j++) {
+            for (int i = 100; i <= 100000000; i = i * 10) {
+                populate("Merge", i, j);
+                if (i * 5 < 500000000)
+                    populate("Merge", i * 5, j);
+                System.runFinalization();
+            }
+        }
         for (int j = 0; j < 3; j++) {
             for (int i = 100; i <= 100000000; i = i * 10) {
                 populate("Quick", i, j);
@@ -45,40 +45,40 @@ public class GenerateInput {
                 System.runFinalization();
             }
         }
-		for(int j = 0; j < 3; j++) {
-			for (int i = 100; i <= 1000000; i = i * 10) {
-				populate("Bubble", i, j);
-				if (i * 5 < 5000000)
-					populate("Bubble",i * 5, j);
-				System.runFinalization();
-			}
-		}
-		for(int j = 0; j < 3; j++) {
-			for (int i = 100; i <= 1000000; i = i * 10) {
-				populate("Insertion", i, j);
-				if (i * 5 < 5000000)
-					populate("Insertion",i * 5, j);
-				System.runFinalization();
-			}
-		}
-		for(int j = 0; j < 3; j++) {
-			for (int i = 100; i <= 1000000; i = i * 10) {
-				populate("Selection", i, j);
-				if (i * 5 < 5000000)
-					populate("Selection",i * 5, j);
-				System.runFinalization();
-			}
-		}
+        for (int j = 0; j < 3; j++) {
+            for (int i = 100; i <= 1000000; i = i * 10) {
+                populate("Bubble", i, j);
+                if (i * 5 < 5000000)
+                    populate("Bubble", i * 5, j);
+                System.runFinalization();
+            }
+        }
+        for (int j = 0; j < 3; j++) {
+            for (int i = 100; i <= 1000000; i = i * 10) {
+                populate("Insertion", i, j);
+                if (i * 5 < 5000000)
+                    populate("Insertion", i * 5, j);
+                System.runFinalization();
+            }
+        }
+        for (int j = 0; j < 3; j++) {
+            for (int i = 100; i <= 1000000; i = i * 10) {
+                populate("Selection", i, j);
+                if (i * 5 < 5000000)
+                    populate("Selection", i * 5, j);
+                System.runFinalization();
+            }
+        }
     }
 
     /**
      * For each sorting algorithm, gets a random, sorted, and backwards sorted array of size i and measures the amount
      * of time it takes for the different algorithms to sort each
      *
-     * @param algo          Name of the algorithm
-     * @param i             Size of the array to sort
-     * @param inputType     Type of array (random, sorted, backwards sorted)
-     * @throws IOException  Throws for FileNotFoundException
+     * @param algo      Name of the algorithm
+     * @param i         Size of the array to sort
+     * @param inputType Type of array (random, sorted, backwards sorted)
+     * @throws IOException Throws for FileNotFoundException
      */
     public void populate(String algo, int i, int inputType) throws IOException {
         Bubble b = new Bubble();
@@ -154,8 +154,9 @@ public class GenerateInput {
 
     /**
      * Gets a random array of integers of size n
+     *
      * @param n size
-     * @return  integer array
+     * @return integer array
      */
     public int[] getRandomArray(int n) {
         int[] toReturn = new int[n];
@@ -169,7 +170,7 @@ public class GenerateInput {
      * Gets a sorted array with values 1 to n
      *
      * @param n size
-     * @return  integer array
+     * @return integer array
      */
     public int[] getSortedArray(int n) {
         int[] toReturn = new int[n];
@@ -183,7 +184,7 @@ public class GenerateInput {
      * Gets a backwards sorted array with values n to 1
      *
      * @param n size
-     * @return  integer array
+     * @return integer array
      */
     public int[] getBackwardsArray(int n) {
         int[] toReturn = new int[n];

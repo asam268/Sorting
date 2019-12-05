@@ -1,7 +1,7 @@
 /**
  * @author Asa Marshall
  * @author Zhyere Ducksworth
- *
+ * <p>
  * This class stores information about test runs. Keeps track of run times to determine average.
  */
 public class Average {
@@ -10,7 +10,7 @@ public class Average {
     private String algo, inputType;
     private double sum;
 
-    public Average(){
+    public Average() {
         this.n = 0;
         this.algo = "";
         this.inputType = "";
@@ -18,7 +18,7 @@ public class Average {
         this.count = 0;
     }
 
-    public Average(String algo, int n, String inputType){
+    public Average(String algo, int n, String inputType) {
         this.n = n;
         this.algo = algo;
         this.inputType = inputType;
@@ -28,20 +28,21 @@ public class Average {
 
     /**
      * Increments counter, adds parameter to local sum
-     * @param num   double, value added to sum
+     *
+     * @param num double, value added to sum
      */
-    public void add(double num){
+    public void add(double num) {
         count++;
         sum += num;
     }
 
     //Accessors
 
-    public double getAverage(){
-        return sum/count;
+    public double getAverage() {
+        return sum / count;
     }
 
-    public int getInputSize(){
+    public int getInputSize() {
         return n;
     }
 
@@ -54,7 +55,7 @@ public class Average {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Average for " + algo + " " + n + "/" + inputType + " is " + getAverage() + "s.";
     }
 }
