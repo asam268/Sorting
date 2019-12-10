@@ -108,13 +108,13 @@ public class GenerateInput {
 
         arr_a = arr;
         if (algo.equalsIgnoreCase("Merge")) {
-            start = System.nanoTime();
-            m.mergesort(arr_a, i);
-            end = System.nanoTime();
-            elapsedTime = end - start;
-            elapsedTimeInSeconds = (double) elapsedTime / 1000000000;
-            System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds);
-            analysis.writeAnalysis(algo, type, i, elapsedTimeInSeconds);
+            start = System.nanoTime(); //begin tracking time
+            m.mergesort(arr_a, i); //sort
+            end = System.nanoTime(); //end tracking time
+            elapsedTime = end - start; //calculate amount of time passed
+            elapsedTimeInSeconds = (double) elapsedTime / 1000000000; //convert nanoseconds to seconds
+            System.out.println("Elapsed time in seconds: " + elapsedTimeInSeconds); //track progress during tests
+            analysis.writeAnalysis(algo, type, i, elapsedTimeInSeconds); //write output of test to file and record data
         } else if (algo.equalsIgnoreCase("Quick")) {
             start = System.nanoTime();
             q.Qsort(arr_a, 0, i - 1);
